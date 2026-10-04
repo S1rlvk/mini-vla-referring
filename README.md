@@ -56,3 +56,7 @@ uv run --with mlx-vlm python -m mini_vla.referring_point --config configs/referr
 uv run --with mlx-vlm python -m mini_vla.referring_paraphrase --config configs/referring_128.toml --heads runs/referring_128 --output runs/referring_paraphrase
 uv run python -m mini_vla.referring_blind --config configs/referring_128.toml --heads runs/referring_128 --parser_dir baselines/blind_parser --output runs/referring_blind
 ```
+
+## Acknowledgements
+
+Claude Code (Anthropic) was used as a tool throughout this project: writing and running the code, generating the paraphrase set, and drafting this write-up.
