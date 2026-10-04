@@ -2,6 +2,10 @@
 
 Does adding a VLM help a robot policy? A small test in a 2D sim.
 
+[![Same scene, same instruction with an unseen word: the parser gets no parse, Qwen reaches the object](demo/wedge_side_by_side.gif)](demo/mini_vla_demo.mp4)
+
+*Same scene, same instruction with an unseen word ("wedge"). Left: the baseline parser returns nothing. Right: Qwen points and the same head reaches it. Click for the [60 second video](demo/mini_vla_demo.mp4). Clips are hand-picked successes; the tables below give the full numbers.*
+
 A top-down scene has 2 to 4 shapes. A sentence picks out one. A gripper must reach that shape. Touching a decoy or timing out is a failure. There are 4 levels of instruction complexity and 64 scenes per level.
 
 - **Qwen system:** a frozen Qwen3.5-9B (4-bit MLX) reads the image and instruction and outputs target coordinates. A tiny trained MLP head drives the gripper there.
@@ -36,7 +40,8 @@ Successes out of 64.
 
 ## Layout
 
-- `src/cloth_occlusion/`: scenes and reaching task, experiment runner, Qwen pointer (`referring_point.py`), paraphrases, blind-parser runner. The package keeps its name from an earlier benchmark.
+- `src/mini_vla/`: scenes and reaching task, experiment runner, Qwen pointer (`referring_point.py`), paraphrases, blind-parser runner. Some helper modules (`scene.py`, `temporal_scene.py`, `chunk_*`) are inherited from an earlier cloth-occlusion benchmark.
+- `demo/`: the 60 second video and the wedge clip shown above.
 - `configs/referring_128.toml`: config for the reported runs. Edit `model_path` for your machine.
 - `baselines/blind_parser/` and `baselines/blind_parser_wedge/`: the blind parser and the copy with "wedge" added.
 - `results/`: comparison JSONs and per-episode rollouts. Trained heads and feature caches are not included.
@@ -46,8 +51,8 @@ Successes out of 64.
 Needs the Qwen weights and `mlx-vlm`.
 
 ```bash
-uv run --with mlx-vlm python -m cloth_occlusion.referring_experiment --config configs/referring_128.toml --output runs/referring_128
-uv run --with mlx-vlm python -m cloth_occlusion.referring_point --config configs/referring_128.toml --heads runs/referring_128 --output runs/referring_point
-uv run --with mlx-vlm python -m cloth_occlusion.referring_paraphrase --config configs/referring_128.toml --heads runs/referring_128 --output runs/referring_paraphrase
-uv run python -m cloth_occlusion.referring_blind --config configs/referring_128.toml --heads runs/referring_128 --parser_dir baselines/blind_parser --output runs/referring_blind
+uv run --with mlx-vlm python -m mini_vla.referring_experiment --config configs/referring_128.toml --output runs/referring_128
+uv run --with mlx-vlm python -m mini_vla.referring_point --config configs/referring_128.toml --heads runs/referring_128 --output runs/referring_point
+uv run --with mlx-vlm python -m mini_vla.referring_paraphrase --config configs/referring_128.toml --heads runs/referring_128 --output runs/referring_paraphrase
+uv run python -m mini_vla.referring_blind --config configs/referring_128.toml --heads runs/referring_128 --parser_dir baselines/blind_parser --output runs/referring_blind
 ```

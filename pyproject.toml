@@ -15,7 +15,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [tool.hatch.build]
-packages = ["src/cloth_occlusion"]
+packages = ["src/mini_vla"]
 
 [tool.verifiers.eval]
 num_examples = 40
