@@ -1,0 +1,22 @@
+[project]
+name = "mini-vla-referring"
+description = "Frozen VLM grounder vs engineered parser+tracker on referring-expression reaching in a 2D sim"
+tags = ["robotics", "vision", "occlusion", "simulation", "eval"]
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "verifiers>=0.3.1",
+    "pillow>=10.0",
+    "numpy>=1.26",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build]
+packages = ["src/cloth_occlusion"]
+
+[tool.verifiers.eval]
+num_examples = 40
+rollouts_per_example = 1

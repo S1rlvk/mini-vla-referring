@@ -1,0 +1,17 @@
+model_path = "path/to/Qwen3.5-9B-MLX-4bit"
+train_seed = 21000
+validation_seed = 31000
+test_seed = 41000
+train_scenes_per_level = 128
+validation_scenes_per_level = 8
+test_scenes_per_level = 32
+states_per_expression = 4
+feature_dimensions = 64
+epochs = 400
+learning_rate = 0.001
+batch_size = 128
+random_seed = 123
+horizon = 8
+execute = 4
+max_steps = 16
+

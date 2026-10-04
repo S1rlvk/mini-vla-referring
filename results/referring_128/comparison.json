@@ -1,0 +1,1627 @@
+{
+  "completed": true,
+  "config": {
+    "model_path": "path/to/Qwen3.5-9B-MLX-4bit",
+    "train_seed": 21000,
+    "validation_seed": 31000,
+    "test_seed": 41000,
+    "train_scenes_per_level": 128,
+    "validation_scenes_per_level": 8,
+    "test_scenes_per_level": 32,
+    "states_per_expression": 4,
+    "feature_dimensions": 64,
+    "epochs": 400,
+    "learning_rate": 0.001,
+    "batch_size": 128,
+    "random_seed": 123,
+    "horizon": 8,
+    "execute": 4,
+    "max_steps": 16
+  },
+  "audit": {
+    "train": {
+      "levels": {
+        "L1": {
+          "scenes": 128,
+          "expressions": 256,
+          "object_counts": {
+            "2": 62,
+            "3": 50,
+            "4": 144
+          },
+          "target_mean_xy": [
+            0.4880464756958546,
+            0.5083034869079914
+          ],
+          "target_quadrants": {
+            "False,False": 69,
+            "False,True": 66,
+            "True,False": 61,
+            "True,True": 60
+          },
+          "families": {
+            "attribute": 256
+          }
+        },
+        "L2": {
+          "scenes": 128,
+          "expressions": 256,
+          "object_counts": {
+            "2": 34,
+            "3": 86,
+            "4": 136
+          },
+          "target_mean_xy": [
+            0.5026320582505204,
+            0.47029828591638606
+          ],
+          "target_quadrants": {
+            "False,False": 66,
+            "False,True": 58,
+            "True,False": 74,
+            "True,True": 58
+          },
+          "families": {
+            "relation": 256
+          }
+        },
+        "L3": {
+          "scenes": 128,
+          "expressions": 256,
+          "object_counts": {
+            "2": 36,
+            "3": 38,
+            "4": 182
+          },
+          "target_mean_xy": [
+            0.48671695620324107,
+            0.5099657929506441
+          ],
+          "target_quadrants": {
+            "False,False": 68,
+            "False,True": 70,
+            "True,False": 56,
+            "True,True": 62
+          },
+          "families": {
+            "edge_context": 128,
+            "nested": 128
+          }
+        }
+      },
+      "mean_scene_generation_attempts": 7.213541666666667,
+      "max_attempts": 98
+    },
+    "validation": {
+      "levels": {
+        "L1": {
+          "scenes": 8,
+          "expressions": 16,
+          "object_counts": {
+            "2": 2,
+            "3": 4,
+            "4": 10
+          },
+          "target_mean_xy": [
+            0.5400614622913567,
+            0.4101632184127919
+          ],
+          "target_quadrants": {
+            "False,False": 4,
+            "False,True": 2,
+            "True,False": 7,
+            "True,True": 3
+          },
+          "families": {
+            "attribute": 16
+          }
+        },
+        "L2": {
+          "scenes": 8,
+          "expressions": 16,
+          "object_counts": {
+            "2": 0,
+            "3": 6,
+            "4": 10
+          },
+          "target_mean_xy": [
+            0.541829345980777,
+            0.4488705162558212
+          ],
+          "target_quadrants": {
+            "False,False": 3,
+            "False,True": 2,
+            "True,False": 7,
+            "True,True": 4
+          },
+          "families": {
+            "relation": 16
+          }
+        },
+        "L3": {
+          "scenes": 8,
+          "expressions": 16,
+          "object_counts": {
+            "2": 2,
+            "3": 4,
+            "4": 10
+          },
+          "target_mean_xy": [
+            0.5463688501284072,
+            0.4856657780526439
+          ],
+          "target_quadrants": {
+            "False,False": 4,
+            "False,True": 3,
+            "True,False": 5,
+            "True,True": 4
+          },
+          "families": {
+            "edge_context": 8,
+            "nested": 8
+          }
+        }
+      },
+      "mean_scene_generation_attempts": 10.333333333333334,
+      "max_attempts": 85
+    },
+    "test": {
+      "levels": {
+        "L1": {
+          "scenes": 32,
+          "expressions": 64,
+          "object_counts": {
+            "2": 12,
+            "3": 20,
+            "4": 32
+          },
+          "target_mean_xy": [
+            0.4919909406210137,
+            0.5110563964482481
+          ],
+          "target_quadrants": {
+            "False,False": 15,
+            "False,True": 19,
+            "True,False": 15,
+            "True,True": 15
+          },
+          "families": {
+            "attribute": 64
+          }
+        },
+        "L2": {
+          "scenes": 32,
+          "expressions": 64,
+          "object_counts": {
+            "2": 0,
+            "3": 24,
+            "4": 40
+          },
+          "target_mean_xy": [
+            0.4952395665800404,
+            0.5097010959676957
+          ],
+          "target_quadrants": {
+            "False,False": 15,
+            "False,True": 19,
+            "True,False": 12,
+            "True,True": 18
+          },
+          "families": {
+            "relation": 64
+          }
+        },
+        "L3": {
+          "scenes": 32,
+          "expressions": 64,
+          "object_counts": {
+            "2": 6,
+            "3": 16,
+            "4": 42
+          },
+          "target_mean_xy": [
+            0.5242315550580637,
+            0.49002336568938265
+          ],
+          "target_quadrants": {
+            "False,False": 15,
+            "False,True": 14,
+            "True,False": 16,
+            "True,True": 19
+          },
+          "families": {
+            "edge_context": 32,
+            "nested": 32
+          }
+        },
+        "L4": {
+          "scenes": 32,
+          "expressions": 64,
+          "object_counts": {
+            "2": 0,
+            "3": 0,
+            "4": 64
+          },
+          "target_mean_xy": [
+            0.4922141278495679,
+            0.5001184673655007
+          ],
+          "target_quadrants": {
+            "False,False": 16,
+            "False,True": 14,
+            "True,False": 18,
+            "True,True": 16
+          },
+          "families": {
+            "between": 32,
+            "not_red": 32
+          }
+        }
+      },
+      "mean_scene_generation_attempts": 309.796875,
+      "max_attempts": 7273
+    },
+    "text_parser_gt_semantic_agreement": 1.0,
+    "image_detector_parser_selection_accuracy": 0.9990671641791045,
+    "uniqueness_verified_expressions": 1072,
+    "engineering_scope": {
+      "parser_lines": 20,
+      "semantic_resolver_lines": 27,
+      "image_detector_lines": 30,
+      "note": "Full fixed grammar supports L1\u2013L4. Engineering cost does not necessarily grow steeply for these finite templates."
+    },
+    "counterfactual_design": "Two different uniquely specified targets per identical scene; target is not marked. Any deterministic no-text policy has <=50% success on each complete paired split.",
+    "behind_definition": "higher image y-direction: target y < anchor y - 0.06 (top-down screen coordinates)",
+    "between_definition": "projection within (0.15,0.85) of anchor segment, perpendicular distance <0.10 normalized workspace"
+  },
+  "training_samples": 3072,
+  "validation_samples": 192,
+  "learning_curves": {
+    "qwen": {
+      "best_epoch": 30,
+      "best_validation_mse": 0.1576220357801731,
+      "curve": [
+        {
+          "epoch": 0,
+          "validation_mse": 0.46858485682311485
+        },
+        {
+          "epoch": 20,
+          "validation_mse": 0.16601803691555925
+        },
+        {
+          "epoch": 40,
+          "validation_mse": 0.1616079812223885
+        },
+        {
+          "epoch": 60,
+          "validation_mse": 0.16714391101365147
+        },
+        {
+          "epoch": 80,
+          "validation_mse": 0.17609961370311908
+        },
+        {
+          "epoch": 100,
+          "validation_mse": 0.18392233226562163
+        },
+        {
+          "epoch": 120,
+          "validation_mse": 0.19157869298509067
+        },
+        {
+          "epoch": 140,
+          "validation_mse": 0.19381576751942275
+        },
+        {
+          "epoch": 160,
+          "validation_mse": 0.19478637037264193
+        },
+        {
+          "epoch": 180,
+          "validation_mse": 0.19513034989759212
+        },
+        {
+          "epoch": 200,
+          "validation_mse": 0.19688153347112233
+        },
+        {
+          "epoch": 220,
+          "validation_mse": 0.19550211048991015
+        },
+        {
+          "epoch": 240,
+          "validation_mse": 0.19866857730137596
+        },
+        {
+          "epoch": 260,
+          "validation_mse": 0.20270102970315618
+        },
+        {
+          "epoch": 280,
+          "validation_mse": 0.20425775627604836
+        },
+        {
+          "epoch": 300,
+          "validation_mse": 0.20832955101273565
+        },
+        {
+          "epoch": 320,
+          "validation_mse": 0.2136342625854637
+        },
+        {
+          "epoch": 340,
+          "validation_mse": 0.2142501004003802
+        },
+        {
+          "epoch": 360,
+          "validation_mse": 0.2194866890771149
+        },
+        {
+          "epoch": 380,
+          "validation_mse": 0.22076617894529268
+        },
+        {
+          "epoch": 400,
+          "validation_mse": 0.22164638609825552
+        }
+      ]
+    },
+    "coordinates": {
+      "best_epoch": 153,
+      "best_validation_mse": 0.25620332777689986,
+      "curve": [
+        {
+          "epoch": 0,
+          "validation_mse": 0.4026780121820576
+        },
+        {
+          "epoch": 20,
+          "validation_mse": 0.2928173019524773
+        },
+        {
+          "epoch": 40,
+          "validation_mse": 0.2928626023110266
+        },
+        {
+          "epoch": 60,
+          "validation_mse": 0.2896134166088107
+        },
+        {
+          "epoch": 80,
+          "validation_mse": 0.27573480528667194
+        },
+        {
+          "epoch": 100,
+          "validation_mse": 0.26342342297274457
+        },
+        {
+          "epoch": 120,
+          "validation_mse": 0.2684462940995352
+        },
+        {
+          "epoch": 140,
+          "validation_mse": 0.26101739620047254
+        },
+        {
+          "epoch": 160,
+          "validation_mse": 0.2612169575011724
+        },
+        {
+          "epoch": 180,
+          "validation_mse": 0.2593232581479152
+        },
+        {
+          "epoch": 200,
+          "validation_mse": 0.25881199723438325
+        },
+        {
+          "epoch": 220,
+          "validation_mse": 0.2634432680236449
+        },
+        {
+          "epoch": 240,
+          "validation_mse": 0.2641747181821291
+        },
+        {
+          "epoch": 260,
+          "validation_mse": 0.26279988886257927
+        },
+        {
+          "epoch": 280,
+          "validation_mse": 0.2643903740008942
+        },
+        {
+          "epoch": 300,
+          "validation_mse": 0.2607386874444172
+        },
+        {
+          "epoch": 320,
+          "validation_mse": 0.26513118122407486
+        },
+        {
+          "epoch": 340,
+          "validation_mse": 0.2689971056220859
+        },
+        {
+          "epoch": 360,
+          "validation_mse": 0.26937086175019304
+        },
+        {
+          "epoch": 380,
+          "validation_mse": 0.2704752234779795
+        },
+        {
+          "epoch": 400,
+          "validation_mse": 0.2760369739260508
+        }
+      ]
+    },
+    "oracle": {
+      "best_epoch": 381,
+      "best_validation_mse": 0.03615672047606339,
+      "curve": [
+        {
+          "epoch": 0,
+          "validation_mse": 0.3996976329234907
+        },
+        {
+          "epoch": 20,
+          "validation_mse": 0.0660434295120192
+        },
+        {
+          "epoch": 40,
+          "validation_mse": 0.04913799295561019
+        },
+        {
+          "epoch": 60,
+          "validation_mse": 0.042807965636376004
+        },
+        {
+          "epoch": 80,
+          "validation_mse": 0.040628333968306896
+        },
+        {
+          "epoch": 100,
+          "validation_mse": 0.03940345753892733
+        },
+        {
+          "epoch": 120,
+          "validation_mse": 0.03846904617709752
+        },
+        {
+          "epoch": 140,
+          "validation_mse": 0.0386759560739121
+        },
+        {
+          "epoch": 160,
+          "validation_mse": 0.03785868706477527
+        },
+        {
+          "epoch": 180,
+          "validation_mse": 0.03807200391843335
+        },
+        {
+          "epoch": 200,
+          "validation_mse": 0.03726487674234377
+        },
+        {
+          "epoch": 220,
+          "validation_mse": 0.037559878252450066
+        },
+        {
+          "epoch": 240,
+          "validation_mse": 0.0367837419641937
+        },
+        {
+          "epoch": 260,
+          "validation_mse": 0.03669000908738528
+        },
+        {
+          "epoch": 280,
+          "validation_mse": 0.03696706790446068
+        },
+        {
+          "epoch": 300,
+          "validation_mse": 0.03713274015012829
+        },
+        {
+          "epoch": 320,
+          "validation_mse": 0.03673444929091949
+        },
+        {
+          "epoch": 340,
+          "validation_mse": 0.03667026849556119
+        },
+        {
+          "epoch": 360,
+          "validation_mse": 0.03680869519002558
+        },
+        {
+          "epoch": 380,
+          "validation_mse": 0.036670386506139296
+        },
+        {
+          "epoch": 400,
+          "validation_mse": 0.03643073547571445
+        }
+      ]
+    }
+  },
+  "summaries": {
+    "qwen": {
+      "L1": {
+        "episodes": 64,
+        "unique_scenes": 32,
+        "successes": 24,
+        "success_rate": 0.375,
+        "decoy_touches": 1,
+        "timeouts": 39,
+        "correct_object_fraction_among_touches": 0.96,
+        "initial_plan_accuracy_proxy": 0.96875,
+        "success_given_correct_initial_plan_proxy": 0.3870967741935484,
+        "parser_selection_accuracy": null,
+        "valid_chunk_rate": 1.0,
+        "mean_endpoint_error_pixels": 31.74565903041153,
+        "mean_calls": 3.265625,
+        "mean_pipeline_seconds_including_cache": 0.011777643731914452
+      },
+      "L2": {
+        "episodes": 64,
+        "unique_scenes": 32,
+        "successes": 16,
+        "success_rate": 0.25,
+        "decoy_touches": 5,
+        "timeouts": 43,
+        "correct_object_fraction_among_touches": 0.7619047619047619,
+        "initial_plan_accuracy_proxy": 0.78125,
+        "success_given_correct_initial_plan_proxy": 0.32,
+        "parser_selection_accuracy": null,
+        "valid_chunk_rate": 1.0,
+        "mean_endpoint_error_pixels": 41.98082423368484,
+        "mean_calls": 3.3125,
+        "mean_pipeline_seconds_including_cache": 0.006111053680316852
+      },
+      "L3": {
+        "episodes": 64,
+        "unique_scenes": 32,
+        "successes": 10,
+        "success_rate": 0.15625,
+        "decoy_touches": 6,
+        "timeouts": 48,
+        "correct_object_fraction_among_touches": 0.625,
+        "initial_plan_accuracy_proxy": 0.71875,
+        "success_given_correct_initial_plan_proxy": 0.21739130434782608,
+        "parser_selection_accuracy": null,
+        "valid_chunk_rate": 1.0,
+        "mean_endpoint_error_pixels": 48.948729682782044,
+        "mean_calls": 3.390625,
+        "mean_pipeline_seconds_including_cache": 0.006025508282065589
+      },
+      "L4": {
+        "episodes": 64,
+        "unique_scenes": 32,
+        "successes": 10,
+        "success_rate": 0.15625,
+        "decoy_touches": 12,
+        "timeouts": 42,
+        "correct_object_fraction_among_touches": 0.45454545454545453,
+        "initial_plan_accuracy_proxy": 0.453125,
+        "success_given_correct_initial_plan_proxy": 0.3448275862068966,
+        "parser_selection_accuracy": null,
+        "valid_chunk_rate": 1.0,
+        "mean_endpoint_error_pixels": 61.07055075077791,
+        "mean_calls": 3.140625,
+        "mean_pipeline_seconds_including_cache": 0.006330018184861326
+      }
+    },
+    "coordinates": {
+      "L1": {
+        "episodes": 64,
+        "unique_scenes": 32,
+        "successes": 7,
+        "success_rate": 0.109375,
+        "decoy_touches": 11,
+        "timeouts": 46,
+        "correct_object_fraction_among_touches": 0.3888888888888889,
+        "initial_plan_accuracy_proxy": 0.328125,
+        "success_given_correct_initial_plan_proxy": 0.2857142857142857,
+        "parser_selection_accuracy": null,
+        "valid_chunk_rate": 1.0,
+        "mean_endpoint_error_pixels": 73.5197023128072,
+        "mean_calls": 3.5625,
+        "mean_pipeline_seconds_including_cache": 0.004702583126792186
+      },
+      "L2": {
+        "episodes": 64,
+        "unique_scenes": 32,
+        "successes": 6,
+        "success_rate": 0.09375,
+        "decoy_touches": 16,
+        "timeouts": 42,
+        "correct_object_fraction_among_touches": 0.2727272727272727,
+        "initial_plan_accuracy_proxy": 0.265625,
+        "success_given_correct_initial_plan_proxy": 0.29411764705882354,
+        "parser_selection_accuracy": null,
+        "valid_chunk_rate": 1.0,
+        "mean_endpoint_error_pixels": 77.98487357526443,
+        "mean_calls": 3.5,
+        "mean_pipeline_seconds_including_cache": 0.0048694157450362196
+      },
+      "L3": {
+        "episodes": 64,
+        "unique_scenes": 32,
+        "successes": 2,
+        "success_rate": 0.03125,
+        "decoy_touches": 14,
+        "timeouts": 48,
+        "correct_object_fraction_among_touches": 0.125,
+        "initial_plan_accuracy_proxy": 0.171875,
+        "success_given_correct_initial_plan_proxy": 0.18181818181818182,
+        "parser_selection_accuracy": null,
+        "valid_chunk_rate": 1.0,
+        "mean_endpoint_error_pixels": 80.49566938256714,
+        "mean_calls": 3.59375,
+        "mean_pipeline_seconds_including_cache": 0.004830817921775515
+      },
+      "L4": {
+        "episodes": 64,
+        "unique_scenes": 32,
+        "successes": 8,
+        "success_rate": 0.125,
+        "decoy_touches": 14,
+        "timeouts": 42,
+        "correct_object_fraction_among_touches": 0.36363636363636365,
+        "initial_plan_accuracy_proxy": 0.40625,
+        "success_given_correct_initial_plan_proxy": 0.23076923076923078,
+        "parser_selection_accuracy": null,
+        "valid_chunk_rate": 1.0,
+        "mean_endpoint_error_pixels": 67.04008402297387,
+        "mean_calls": 3.53125,
+        "mean_pipeline_seconds_including_cache": 0.005007370198284589
+      }
+    },
+    "oracle": {
+      "L1": {
+        "episodes": 64,
+        "unique_scenes": 32,
+        "successes": 63,
+        "success_rate": 0.984375,
+        "decoy_touches": 1,
+        "timeouts": 0,
+        "correct_object_fraction_among_touches": 0.984375,
+        "initial_plan_accuracy_proxy": 1.0,
+        "success_given_correct_initial_plan_proxy": 0.984375,
+        "parser_selection_accuracy": null,
+        "valid_chunk_rate": 1.0,
+        "mean_endpoint_error_pixels": 14.956294699370213,
+        "mean_calls": 1.765625,
+        "mean_pipeline_seconds_including_cache": 0.009383918858644247
+      },
+      "L2": {
+        "episodes": 64,
+        "unique_scenes": 32,
+        "successes": 62,
+        "success_rate": 0.96875,
+        "decoy_touches": 2,
+        "timeouts": 0,
+        "correct_object_fraction_among_touches": 0.96875,
+        "initial_plan_accuracy_proxy": 1.0,
+        "success_given_correct_initial_plan_proxy": 0.96875,
+        "parser_selection_accuracy": null,
+        "valid_chunk_rate": 1.0,
+        "mean_endpoint_error_pixels": 16.493188310165987,
+        "mean_calls": 1.6875,
+        "mean_pipeline_seconds_including_cache": 0.009605736794549524
+      },
+      "L3": {
+        "episodes": 64,
+        "unique_scenes": 32,
+        "successes": 61,
+        "success_rate": 0.953125,
+        "decoy_touches": 3,
+        "timeouts": 0,
+        "correct_object_fraction_among_touches": 0.953125,
+        "initial_plan_accuracy_proxy": 1.0,
+        "success_given_correct_initial_plan_proxy": 0.953125,
+        "parser_selection_accuracy": null,
+        "valid_chunk_rate": 1.0,
+        "mean_endpoint_error_pixels": 16.755206025625498,
+        "mean_calls": 1.734375,
+        "mean_pipeline_seconds_including_cache": 0.009472579118713888
+      },
+      "L4": {
+        "episodes": 64,
+        "unique_scenes": 32,
+        "successes": 61,
+        "success_rate": 0.953125,
+        "decoy_touches": 3,
+        "timeouts": 0,
+        "correct_object_fraction_among_touches": 0.953125,
+        "initial_plan_accuracy_proxy": 1.0,
+        "success_given_correct_initial_plan_proxy": 0.953125,
+        "parser_selection_accuracy": null,
+        "valid_chunk_rate": 1.0,
+        "mean_endpoint_error_pixels": 16.814782138261563,
+        "mean_calls": 1.4375,
+        "mean_pipeline_seconds_including_cache": 0.009958522184245774
+      }
+    },
+    "engineered": {
+      "L1": {
+        "episodes": 64,
+        "unique_scenes": 32,
+        "successes": 63,
+        "success_rate": 0.984375,
+        "decoy_touches": 1,
+        "timeouts": 0,
+        "correct_object_fraction_among_touches": 0.984375,
+        "initial_plan_accuracy_proxy": 1.0,
+        "success_given_correct_initial_plan_proxy": 0.984375,
+        "parser_selection_accuracy": 1.0,
+        "valid_chunk_rate": 1.0,
+        "mean_endpoint_error_pixels": 14.856750103213672,
+        "mean_calls": 1.78125,
+        "mean_pipeline_seconds_including_cache": 0.009375786165994788
+      },
+      "L2": {
+        "episodes": 64,
+        "unique_scenes": 32,
+        "successes": 63,
+        "success_rate": 0.984375,
+        "decoy_touches": 1,
+        "timeouts": 0,
+        "correct_object_fraction_among_touches": 0.984375,
+        "initial_plan_accuracy_proxy": 1.0,
+        "success_given_correct_initial_plan_proxy": 0.984375,
+        "parser_selection_accuracy": 1.0,
+        "valid_chunk_rate": 1.0,
+        "mean_endpoint_error_pixels": 15.834869009957025,
+        "mean_calls": 1.703125,
+        "mean_pipeline_seconds_including_cache": 0.009607487449202465
+      },
+      "L3": {
+        "episodes": 64,
+        "unique_scenes": 32,
+        "successes": 61,
+        "success_rate": 0.953125,
+        "decoy_touches": 3,
+        "timeouts": 0,
+        "correct_object_fraction_among_touches": 0.953125,
+        "initial_plan_accuracy_proxy": 1.0,
+        "success_given_correct_initial_plan_proxy": 0.953125,
+        "parser_selection_accuracy": 1.0,
+        "valid_chunk_rate": 1.0,
+        "mean_endpoint_error_pixels": 16.754418558357262,
+        "mean_calls": 1.78125,
+        "mean_pipeline_seconds_including_cache": 0.009544286539669867
+      },
+      "L4": {
+        "episodes": 64,
+        "unique_scenes": 32,
+        "successes": 61,
+        "success_rate": 0.953125,
+        "decoy_touches": 3,
+        "timeouts": 0,
+        "correct_object_fraction_among_touches": 0.953125,
+        "initial_plan_accuracy_proxy": 1.0,
+        "success_given_correct_initial_plan_proxy": 0.953125,
+        "parser_selection_accuracy": 1.0,
+        "valid_chunk_rate": 1.0,
+        "mean_endpoint_error_pixels": 16.79740666577336,
+        "mean_calls": 1.4375,
+        "mean_pipeline_seconds_including_cache": 0.00994788004248656
+      }
+    }
+  },
+  "family_summaries": {
+    "attribute": {
+      "qwen": {
+        "L1": {
+          "episodes": 64,
+          "unique_scenes": 32,
+          "successes": 24,
+          "success_rate": 0.375,
+          "decoy_touches": 1,
+          "timeouts": 39,
+          "correct_object_fraction_among_touches": 0.96,
+          "initial_plan_accuracy_proxy": 0.96875,
+          "success_given_correct_initial_plan_proxy": 0.3870967741935484,
+          "parser_selection_accuracy": null,
+          "valid_chunk_rate": 1.0,
+          "mean_endpoint_error_pixels": 31.74565903041153,
+          "mean_calls": 3.265625,
+          "mean_pipeline_seconds_including_cache": 0.011777643731914452
+        }
+      },
+      "coordinates": {
+        "L1": {
+          "episodes": 64,
+          "unique_scenes": 32,
+          "successes": 7,
+          "success_rate": 0.109375,
+          "decoy_touches": 11,
+          "timeouts": 46,
+          "correct_object_fraction_among_touches": 0.3888888888888889,
+          "initial_plan_accuracy_proxy": 0.328125,
+          "success_given_correct_initial_plan_proxy": 0.2857142857142857,
+          "parser_selection_accuracy": null,
+          "valid_chunk_rate": 1.0,
+          "mean_endpoint_error_pixels": 73.5197023128072,
+          "mean_calls": 3.5625,
+          "mean_pipeline_seconds_including_cache": 0.004702583126792186
+        }
+      },
+      "oracle": {
+        "L1": {
+          "episodes": 64,
+          "unique_scenes": 32,
+          "successes": 63,
+          "success_rate": 0.984375,
+          "decoy_touches": 1,
+          "timeouts": 0,
+          "correct_object_fraction_among_touches": 0.984375,
+          "initial_plan_accuracy_proxy": 1.0,
+          "success_given_correct_initial_plan_proxy": 0.984375,
+          "parser_selection_accuracy": null,
+          "valid_chunk_rate": 1.0,
+          "mean_endpoint_error_pixels": 14.956294699370213,
+          "mean_calls": 1.765625,
+          "mean_pipeline_seconds_including_cache": 0.009383918858644247
+        }
+      },
+      "engineered": {
+        "L1": {
+          "episodes": 64,
+          "unique_scenes": 32,
+          "successes": 63,
+          "success_rate": 0.984375,
+          "decoy_touches": 1,
+          "timeouts": 0,
+          "correct_object_fraction_among_touches": 0.984375,
+          "initial_plan_accuracy_proxy": 1.0,
+          "success_given_correct_initial_plan_proxy": 0.984375,
+          "parser_selection_accuracy": 1.0,
+          "valid_chunk_rate": 1.0,
+          "mean_endpoint_error_pixels": 14.856750103213672,
+          "mean_calls": 1.78125,
+          "mean_pipeline_seconds_including_cache": 0.009375786165994788
+        }
+      }
+    },
+    "between": {
+      "qwen": {
+        "L4": {
+          "episodes": 32,
+          "unique_scenes": 16,
+          "successes": 5,
+          "success_rate": 0.15625,
+          "decoy_touches": 4,
+          "timeouts": 23,
+          "correct_object_fraction_among_touches": 0.5555555555555556,
+          "initial_plan_accuracy_proxy": 0.4375,
+          "success_given_correct_initial_plan_proxy": 0.35714285714285715,
+          "parser_selection_accuracy": null,
+          "valid_chunk_rate": 1.0,
+          "mean_endpoint_error_pixels": 59.735473582047824,
+          "mean_calls": 3.25,
+          "mean_pipeline_seconds_including_cache": 0.006370011943755134
+        }
+      },
+      "coordinates": {
+        "L4": {
+          "episodes": 32,
+          "unique_scenes": 16,
+          "successes": 7,
+          "success_rate": 0.21875,
+          "decoy_touches": 7,
+          "timeouts": 18,
+          "correct_object_fraction_among_touches": 0.5,
+          "initial_plan_accuracy_proxy": 0.5,
+          "success_given_correct_initial_plan_proxy": 0.3125,
+          "parser_selection_accuracy": null,
+          "valid_chunk_rate": 1.0,
+          "mean_endpoint_error_pixels": 51.84763978382814,
+          "mean_calls": 3.375,
+          "mean_pipeline_seconds_including_cache": 0.004996680156586485
+        }
+      },
+      "oracle": {
+        "L4": {
+          "episodes": 32,
+          "unique_scenes": 16,
+          "successes": 32,
+          "success_rate": 1.0,
+          "decoy_touches": 0,
+          "timeouts": 0,
+          "correct_object_fraction_among_touches": 1.0,
+          "initial_plan_accuracy_proxy": 1.0,
+          "success_given_correct_initial_plan_proxy": 1.0,
+          "parser_selection_accuracy": null,
+          "valid_chunk_rate": 1.0,
+          "mean_endpoint_error_pixels": 14.29773283370725,
+          "mean_calls": 1.25,
+          "mean_pipeline_seconds_including_cache": 0.010107403122674441
+        }
+      },
+      "engineered": {
+        "L4": {
+          "episodes": 32,
+          "unique_scenes": 16,
+          "successes": 32,
+          "success_rate": 1.0,
+          "decoy_touches": 0,
+          "timeouts": 0,
+          "correct_object_fraction_among_touches": 1.0,
+          "initial_plan_accuracy_proxy": 1.0,
+          "success_given_correct_initial_plan_proxy": 1.0,
+          "parser_selection_accuracy": 1.0,
+          "valid_chunk_rate": 1.0,
+          "mean_endpoint_error_pixels": 14.25082041896134,
+          "mean_calls": 1.25,
+          "mean_pipeline_seconds_including_cache": 0.010104489621153335
+        }
+      }
+    },
+    "edge_context": {
+      "qwen": {
+        "L3": {
+          "episodes": 32,
+          "unique_scenes": 16,
+          "successes": 7,
+          "success_rate": 0.21875,
+          "decoy_touches": 2,
+          "timeouts": 23,
+          "correct_object_fraction_among_touches": 0.7777777777777778,
+          "initial_plan_accuracy_proxy": 0.78125,
+          "success_given_correct_initial_plan_proxy": 0.28,
+          "parser_selection_accuracy": null,
+          "valid_chunk_rate": 1.0,
+          "mean_endpoint_error_pixels": 49.15316414957181,
+          "mean_calls": 3.28125,
+          "mean_pipeline_seconds_including_cache": 0.005977671506393346
+        }
+      },
+      "coordinates": {
+        "L3": {
+          "episodes": 32,
+          "unique_scenes": 16,
+          "successes": 2,
+          "success_rate": 0.0625,
+          "decoy_touches": 12,
+          "timeouts": 18,
+          "correct_object_fraction_among_touches": 0.14285714285714285,
+          "initial_plan_accuracy_proxy": 0.28125,
+          "success_given_correct_initial_plan_proxy": 0.2222222222222222,
+          "parser_selection_accuracy": null,
+          "valid_chunk_rate": 1.0,
+          "mean_endpoint_error_pixels": 72.23823546103668,
+          "mean_calls": 3.1875,
+          "mean_pipeline_seconds_including_cache": 0.004802154833918857
+        }
+      },
+      "oracle": {
+        "L3": {
+          "episodes": 32,
+          "unique_scenes": 16,
+          "successes": 31,
+          "success_rate": 0.96875,
+          "decoy_touches": 1,
+          "timeouts": 0,
+          "correct_object_fraction_among_touches": 0.96875,
+          "initial_plan_accuracy_proxy": 1.0,
+          "success_given_correct_initial_plan_proxy": 0.96875,
+          "parser_selection_accuracy": null,
+          "valid_chunk_rate": 1.0,
+          "mean_endpoint_error_pixels": 16.66736468861973,
+          "mean_calls": 1.6875,
+          "mean_pipeline_seconds_including_cache": 0.009367024632175107
+        }
+      },
+      "engineered": {
+        "L3": {
+          "episodes": 32,
+          "unique_scenes": 16,
+          "successes": 31,
+          "success_rate": 0.96875,
+          "decoy_touches": 1,
+          "timeouts": 0,
+          "correct_object_fraction_among_touches": 0.96875,
+          "initial_plan_accuracy_proxy": 1.0,
+          "success_given_correct_initial_plan_proxy": 0.96875,
+          "parser_selection_accuracy": 1.0,
+          "valid_chunk_rate": 1.0,
+          "mean_endpoint_error_pixels": 16.73962241531763,
+          "mean_calls": 1.6875,
+          "mean_pipeline_seconds_including_cache": 0.009520212088655508
+        }
+      }
+    },
+    "nested": {
+      "qwen": {
+        "L3": {
+          "episodes": 32,
+          "unique_scenes": 16,
+          "successes": 3,
+          "success_rate": 0.09375,
+          "decoy_touches": 4,
+          "timeouts": 25,
+          "correct_object_fraction_among_touches": 0.42857142857142855,
+          "initial_plan_accuracy_proxy": 0.65625,
+          "success_given_correct_initial_plan_proxy": 0.14285714285714285,
+          "parser_selection_accuracy": null,
+          "valid_chunk_rate": 1.0,
+          "mean_endpoint_error_pixels": 48.744295215992274,
+          "mean_calls": 3.5,
+          "mean_pipeline_seconds_including_cache": 0.006070355259258317
+        }
+      },
+      "coordinates": {
+        "L3": {
+          "episodes": 32,
+          "unique_scenes": 16,
+          "successes": 0,
+          "success_rate": 0.0,
+          "decoy_touches": 2,
+          "timeouts": 30,
+          "correct_object_fraction_among_touches": 0.0,
+          "initial_plan_accuracy_proxy": 0.0625,
+          "success_given_correct_initial_plan_proxy": 0.0,
+          "parser_selection_accuracy": null,
+          "valid_chunk_rate": 1.0,
+          "mean_endpoint_error_pixels": 88.75310330409759,
+          "mean_calls": 4.0,
+          "mean_pipeline_seconds_including_cache": 0.0048536588199112884
+        }
+      },
+      "oracle": {
+        "L3": {
+          "episodes": 32,
+          "unique_scenes": 16,
+          "successes": 30,
+          "success_rate": 0.9375,
+          "decoy_touches": 2,
+          "timeouts": 0,
+          "correct_object_fraction_among_touches": 0.9375,
+          "initial_plan_accuracy_proxy": 1.0,
+          "success_given_correct_initial_plan_proxy": 0.9375,
+          "parser_selection_accuracy": null,
+          "valid_chunk_rate": 1.0,
+          "mean_endpoint_error_pixels": 16.84304736263127,
+          "mean_calls": 1.78125,
+          "mean_pipeline_seconds_including_cache": 0.009572578105961153
+        }
+      },
+      "engineered": {
+        "L3": {
+          "episodes": 32,
+          "unique_scenes": 16,
+          "successes": 30,
+          "success_rate": 0.9375,
+          "decoy_touches": 2,
+          "timeouts": 0,
+          "correct_object_fraction_among_touches": 0.9375,
+          "initial_plan_accuracy_proxy": 1.0,
+          "success_given_correct_initial_plan_proxy": 0.9375,
+          "parser_selection_accuracy": 1.0,
+          "valid_chunk_rate": 1.0,
+          "mean_endpoint_error_pixels": 16.76921470139689,
+          "mean_calls": 1.875,
+          "mean_pipeline_seconds_including_cache": 0.009565953545582791
+        }
+      }
+    },
+    "not_red": {
+      "qwen": {
+        "L4": {
+          "episodes": 32,
+          "unique_scenes": 16,
+          "successes": 5,
+          "success_rate": 0.15625,
+          "decoy_touches": 8,
+          "timeouts": 19,
+          "correct_object_fraction_among_touches": 0.38461538461538464,
+          "initial_plan_accuracy_proxy": 0.46875,
+          "success_given_correct_initial_plan_proxy": 0.3333333333333333,
+          "parser_selection_accuracy": null,
+          "valid_chunk_rate": 1.0,
+          "mean_endpoint_error_pixels": 62.40562791950801,
+          "mean_calls": 3.03125,
+          "mean_pipeline_seconds_including_cache": 0.0062871382784184795
+        }
+      },
+      "coordinates": {
+        "L4": {
+          "episodes": 32,
+          "unique_scenes": 16,
+          "successes": 1,
+          "success_rate": 0.03125,
+          "decoy_touches": 7,
+          "timeouts": 24,
+          "correct_object_fraction_among_touches": 0.125,
+          "initial_plan_accuracy_proxy": 0.3125,
+          "success_given_correct_initial_plan_proxy": 0.1,
+          "parser_selection_accuracy": null,
+          "valid_chunk_rate": 1.0,
+          "mean_endpoint_error_pixels": 82.23252826211962,
+          "mean_calls": 3.6875,
+          "mean_pipeline_seconds_including_cache": 0.005017154304245566
+        }
+      },
+      "oracle": {
+        "L4": {
+          "episodes": 32,
+          "unique_scenes": 16,
+          "successes": 29,
+          "success_rate": 0.90625,
+          "decoy_touches": 3,
+          "timeouts": 0,
+          "correct_object_fraction_among_touches": 0.90625,
+          "initial_plan_accuracy_proxy": 1.0,
+          "success_given_correct_initial_plan_proxy": 0.90625,
+          "parser_selection_accuracy": null,
+          "valid_chunk_rate": 1.0,
+          "mean_endpoint_error_pixels": 19.33183144281588,
+          "mean_calls": 1.625,
+          "mean_pipeline_seconds_including_cache": 0.009843998385454493
+        }
+      },
+      "engineered": {
+        "L4": {
+          "episodes": 32,
+          "unique_scenes": 16,
+          "successes": 29,
+          "success_rate": 0.90625,
+          "decoy_touches": 3,
+          "timeouts": 0,
+          "correct_object_fraction_among_touches": 0.90625,
+          "initial_plan_accuracy_proxy": 1.0,
+          "success_given_correct_initial_plan_proxy": 0.90625,
+          "parser_selection_accuracy": 1.0,
+          "valid_chunk_rate": 1.0,
+          "mean_endpoint_error_pixels": 19.343992912585378,
+          "mean_calls": 1.625,
+          "mean_pipeline_seconds_including_cache": 0.009827411135819811
+        }
+      }
+    },
+    "relation": {
+      "qwen": {
+        "L2": {
+          "episodes": 64,
+          "unique_scenes": 32,
+          "successes": 16,
+          "success_rate": 0.25,
+          "decoy_touches": 5,
+          "timeouts": 43,
+          "correct_object_fraction_among_touches": 0.7619047619047619,
+          "initial_plan_accuracy_proxy": 0.78125,
+          "success_given_correct_initial_plan_proxy": 0.32,
+          "parser_selection_accuracy": null,
+          "valid_chunk_rate": 1.0,
+          "mean_endpoint_error_pixels": 41.98082423368484,
+          "mean_calls": 3.3125,
+          "mean_pipeline_seconds_including_cache": 0.006111053680316852
+        }
+      },
+      "coordinates": {
+        "L2": {
+          "episodes": 64,
+          "unique_scenes": 32,
+          "successes": 6,
+          "success_rate": 0.09375,
+          "decoy_touches": 16,
+          "timeouts": 42,
+          "correct_object_fraction_among_touches": 0.2727272727272727,
+          "initial_plan_accuracy_proxy": 0.265625,
+          "success_given_correct_initial_plan_proxy": 0.29411764705882354,
+          "parser_selection_accuracy": null,
+          "valid_chunk_rate": 1.0,
+          "mean_endpoint_error_pixels": 77.98487357526443,
+          "mean_calls": 3.5,
+          "mean_pipeline_seconds_including_cache": 0.0048694157450362196
+        }
+      },
+      "oracle": {
+        "L2": {
+          "episodes": 64,
+          "unique_scenes": 32,
+          "successes": 62,
+          "success_rate": 0.96875,
+          "decoy_touches": 2,
+          "timeouts": 0,
+          "correct_object_fraction_among_touches": 0.96875,
+          "initial_plan_accuracy_proxy": 1.0,
+          "success_given_correct_initial_plan_proxy": 0.96875,
+          "parser_selection_accuracy": null,
+          "valid_chunk_rate": 1.0,
+          "mean_endpoint_error_pixels": 16.493188310165987,
+          "mean_calls": 1.6875,
+          "mean_pipeline_seconds_including_cache": 0.009605736794549524
+        }
+      },
+      "engineered": {
+        "L2": {
+          "episodes": 64,
+          "unique_scenes": 32,
+          "successes": 63,
+          "success_rate": 0.984375,
+          "decoy_touches": 1,
+          "timeouts": 0,
+          "correct_object_fraction_among_touches": 0.984375,
+          "initial_plan_accuracy_proxy": 1.0,
+          "success_given_correct_initial_plan_proxy": 0.984375,
+          "parser_selection_accuracy": 1.0,
+          "valid_chunk_rate": 1.0,
+          "mean_endpoint_error_pixels": 15.834869009957025,
+          "mean_calls": 1.703125,
+          "mean_pipeline_seconds_including_cache": 0.009607487449202465
+        }
+      }
+    }
+  },
+  "four_object_summaries": {
+    "qwen": {
+      "L1": {
+        "episodes": 32,
+        "unique_scenes": 16,
+        "successes": 16,
+        "success_rate": 0.5,
+        "decoy_touches": 0,
+        "timeouts": 16,
+        "correct_object_fraction_among_touches": 1.0,
+        "initial_plan_accuracy_proxy": 0.9375,
+        "success_given_correct_initial_plan_proxy": 0.5333333333333333,
+        "parser_selection_accuracy": null,
+        "valid_chunk_rate": 1.0,
+        "mean_endpoint_error_pixels": 27.362085888549892,
+        "mean_calls": 3.0625,
+        "mean_pipeline_seconds_including_cache": 0.01868245407270163
+      },
+      "L2": {
+        "episodes": 40,
+        "unique_scenes": 20,
+        "successes": 8,
+        "success_rate": 0.2,
+        "decoy_touches": 4,
+        "timeouts": 28,
+        "correct_object_fraction_among_touches": 0.6666666666666666,
+        "initial_plan_accuracy_proxy": 0.725,
+        "success_given_correct_initial_plan_proxy": 0.27586206896551724,
+        "parser_selection_accuracy": null,
+        "valid_chunk_rate": 1.0,
+        "mean_endpoint_error_pixels": 44.54220080692981,
+        "mean_calls": 3.35,
+        "mean_pipeline_seconds_including_cache": 0.006223263710288943
+      },
+      "L3": {
+        "episodes": 42,
+        "unique_scenes": 21,
+        "successes": 5,
+        "success_rate": 0.11904761904761904,
+        "decoy_touches": 4,
+        "timeouts": 33,
+        "correct_object_fraction_among_touches": 0.5555555555555556,
+        "initial_plan_accuracy_proxy": 0.7380952380952381,
+        "success_given_correct_initial_plan_proxy": 0.16129032258064516,
+        "parser_selection_accuracy": null,
+        "valid_chunk_rate": 1.0,
+        "mean_endpoint_error_pixels": 48.51193818999308,
+        "mean_calls": 3.4761904761904763,
+        "mean_pipeline_seconds_including_cache": 0.006180610726603422
+      },
+      "L4": {
+        "episodes": 64,
+        "unique_scenes": 32,
+        "successes": 10,
+        "success_rate": 0.15625,
+        "decoy_touches": 12,
+        "timeouts": 42,
+        "correct_object_fraction_among_touches": 0.45454545454545453,
+        "initial_plan_accuracy_proxy": 0.453125,
+        "success_given_correct_initial_plan_proxy": 0.3448275862068966,
+        "parser_selection_accuracy": null,
+        "valid_chunk_rate": 1.0,
+        "mean_endpoint_error_pixels": 61.07055075077791,
+        "mean_calls": 3.140625,
+        "mean_pipeline_seconds_including_cache": 0.006330018184861326
+      }
+    },
+    "coordinates": {
+      "L1": {
+        "episodes": 32,
+        "unique_scenes": 16,
+        "successes": 2,
+        "success_rate": 0.0625,
+        "decoy_touches": 4,
+        "timeouts": 26,
+        "correct_object_fraction_among_touches": 0.3333333333333333,
+        "initial_plan_accuracy_proxy": 0.25,
+        "success_given_correct_initial_plan_proxy": 0.25,
+        "parser_selection_accuracy": null,
+        "valid_chunk_rate": 1.0,
+        "mean_endpoint_error_pixels": 82.19710219513836,
+        "mean_calls": 3.6875,
+        "mean_pipeline_seconds_including_cache": 0.004989118245972904
+      },
+      "L2": {
+        "episodes": 40,
+        "unique_scenes": 20,
+        "successes": 3,
+        "success_rate": 0.075,
+        "decoy_touches": 11,
+        "timeouts": 26,
+        "correct_object_fraction_among_touches": 0.21428571428571427,
+        "initial_plan_accuracy_proxy": 0.225,
+        "success_given_correct_initial_plan_proxy": 0.2222222222222222,
+        "parser_selection_accuracy": null,
+        "valid_chunk_rate": 1.0,
+        "mean_endpoint_error_pixels": 82.88348554649977,
+        "mean_calls": 3.55,
+        "mean_pipeline_seconds_including_cache": 0.00498231954878347
+      },
+      "L3": {
+        "episodes": 42,
+        "unique_scenes": 21,
+        "successes": 0,
+        "success_rate": 0.0,
+        "decoy_touches": 4,
+        "timeouts": 38,
+        "correct_object_fraction_among_touches": 0.0,
+        "initial_plan_accuracy_proxy": 0.09523809523809523,
+        "success_given_correct_initial_plan_proxy": 0.0,
+        "parser_selection_accuracy": null,
+        "valid_chunk_rate": 1.0,
+        "mean_endpoint_error_pixels": 86.12469701332618,
+        "mean_calls": 3.9523809523809526,
+        "mean_pipeline_seconds_including_cache": 0.0049353167348042
+      },
+      "L4": {
+        "episodes": 64,
+        "unique_scenes": 32,
+        "successes": 8,
+        "success_rate": 0.125,
+        "decoy_touches": 14,
+        "timeouts": 42,
+        "correct_object_fraction_among_touches": 0.36363636363636365,
+        "initial_plan_accuracy_proxy": 0.40625,
+        "success_given_correct_initial_plan_proxy": 0.23076923076923078,
+        "parser_selection_accuracy": null,
+        "valid_chunk_rate": 1.0,
+        "mean_endpoint_error_pixels": 67.04008402297387,
+        "mean_calls": 3.53125,
+        "mean_pipeline_seconds_including_cache": 0.005007370198284589
+      }
+    },
+    "oracle": {
+      "L1": {
+        "episodes": 32,
+        "unique_scenes": 16,
+        "successes": 32,
+        "success_rate": 1.0,
+        "decoy_touches": 0,
+        "timeouts": 0,
+        "correct_object_fraction_among_touches": 1.0,
+        "initial_plan_accuracy_proxy": 1.0,
+        "success_given_correct_initial_plan_proxy": 1.0,
+        "parser_selection_accuracy": null,
+        "valid_chunk_rate": 1.0,
+        "mean_endpoint_error_pixels": 14.455988914916912,
+        "mean_calls": 1.75,
+        "mean_pipeline_seconds_including_cache": 0.009953558713667527
+      },
+      "L2": {
+        "episodes": 40,
+        "unique_scenes": 20,
+        "successes": 38,
+        "success_rate": 0.95,
+        "decoy_touches": 2,
+        "timeouts": 0,
+        "correct_object_fraction_among_touches": 0.95,
+        "initial_plan_accuracy_proxy": 1.0,
+        "success_given_correct_initial_plan_proxy": 0.95,
+        "parser_selection_accuracy": null,
+        "valid_chunk_rate": 1.0,
+        "mean_endpoint_error_pixels": 17.409489244340346,
+        "mean_calls": 1.65,
+        "mean_pipeline_seconds_including_cache": 0.009890481650610596
+      },
+      "L3": {
+        "episodes": 42,
+        "unique_scenes": 21,
+        "successes": 40,
+        "success_rate": 0.9523809523809523,
+        "decoy_touches": 2,
+        "timeouts": 0,
+        "correct_object_fraction_among_touches": 0.9523809523809523,
+        "initial_plan_accuracy_proxy": 1.0,
+        "success_given_correct_initial_plan_proxy": 0.9523809523809523,
+        "parser_selection_accuracy": null,
+        "valid_chunk_rate": 1.0,
+        "mean_endpoint_error_pixels": 16.44079145665454,
+        "mean_calls": 1.7619047619047619,
+        "mean_pipeline_seconds_including_cache": 0.009763223446694808
+      },
+      "L4": {
+        "episodes": 64,
+        "unique_scenes": 32,
+        "successes": 61,
+        "success_rate": 0.953125,
+        "decoy_touches": 3,
+        "timeouts": 0,
+        "correct_object_fraction_among_touches": 0.953125,
+        "initial_plan_accuracy_proxy": 1.0,
+        "success_given_correct_initial_plan_proxy": 0.953125,
+        "parser_selection_accuracy": null,
+        "valid_chunk_rate": 1.0,
+        "mean_endpoint_error_pixels": 16.814782138261563,
+        "mean_calls": 1.4375,
+        "mean_pipeline_seconds_including_cache": 0.009958522184245774
+      }
+    },
+    "engineered": {
+      "L1": {
+        "episodes": 32,
+        "unique_scenes": 16,
+        "successes": 32,
+        "success_rate": 1.0,
+        "decoy_touches": 0,
+        "timeouts": 0,
+        "correct_object_fraction_among_touches": 1.0,
+        "initial_plan_accuracy_proxy": 1.0,
+        "success_given_correct_initial_plan_proxy": 1.0,
+        "parser_selection_accuracy": 1.0,
+        "valid_chunk_rate": 1.0,
+        "mean_endpoint_error_pixels": 14.512093019942014,
+        "mean_calls": 1.75,
+        "mean_pipeline_seconds_including_cache": 0.009945526785616363
+      },
+      "L2": {
+        "episodes": 40,
+        "unique_scenes": 20,
+        "successes": 39,
+        "success_rate": 0.975,
+        "decoy_touches": 1,
+        "timeouts": 0,
+        "correct_object_fraction_among_touches": 0.975,
+        "initial_plan_accuracy_proxy": 1.0,
+        "success_given_correct_initial_plan_proxy": 0.975,
+        "parser_selection_accuracy": 1.0,
+        "valid_chunk_rate": 1.0,
+        "mean_endpoint_error_pixels": 16.36549483116274,
+        "mean_calls": 1.675,
+        "mean_pipeline_seconds_including_cache": 0.009883064715845038
+      },
+      "L3": {
+        "episodes": 42,
+        "unique_scenes": 21,
+        "successes": 40,
+        "success_rate": 0.9523809523809523,
+        "decoy_touches": 2,
+        "timeouts": 0,
+        "correct_object_fraction_among_touches": 0.9523809523809523,
+        "initial_plan_accuracy_proxy": 1.0,
+        "success_given_correct_initial_plan_proxy": 0.9523809523809523,
+        "parser_selection_accuracy": 1.0,
+        "valid_chunk_rate": 1.0,
+        "mean_endpoint_error_pixels": 16.39109545232539,
+        "mean_calls": 1.8333333333333333,
+        "mean_pipeline_seconds_including_cache": 0.009746106645748527
+      },
+      "L4": {
+        "episodes": 64,
+        "unique_scenes": 32,
+        "successes": 61,
+        "success_rate": 0.953125,
+        "decoy_touches": 3,
+        "timeouts": 0,
+        "correct_object_fraction_among_touches": 0.953125,
+        "initial_plan_accuracy_proxy": 1.0,
+        "success_given_correct_initial_plan_proxy": 0.953125,
+        "parser_selection_accuracy": 1.0,
+        "valid_chunk_rate": 1.0,
+        "mean_endpoint_error_pixels": 16.79740666577336,
+        "mean_calls": 1.4375,
+        "mean_pipeline_seconds_including_cache": 0.00994788004248656
+      }
+    }
+  },
+  "counterfactual_pairs": {
+    "qwen": {
+      "L1": {
+        "pairs": 32,
+        "both_instructions_succeeded": 5,
+        "reached_different_objects": 5
+      },
+      "L2": {
+        "pairs": 32,
+        "both_instructions_succeeded": 2,
+        "reached_different_objects": 2
+      },
+      "L3": {
+        "pairs": 32,
+        "both_instructions_succeeded": 0,
+        "reached_different_objects": 0
+      },
+      "L4": {
+        "pairs": 32,
+        "both_instructions_succeeded": 0,
+        "reached_different_objects": 0
+      }
+    },
+    "coordinates": {
+      "L1": {
+        "pairs": 32,
+        "both_instructions_succeeded": 0,
+        "reached_different_objects": 0
+      },
+      "L2": {
+        "pairs": 32,
+        "both_instructions_succeeded": 0,
+        "reached_different_objects": 0
+      },
+      "L3": {
+        "pairs": 32,
+        "both_instructions_succeeded": 0,
+        "reached_different_objects": 0
+      },
+      "L4": {
+        "pairs": 32,
+        "both_instructions_succeeded": 0,
+        "reached_different_objects": 0
+      }
+    },
+    "oracle": {
+      "L1": {
+        "pairs": 32,
+        "both_instructions_succeeded": 31,
+        "reached_different_objects": 31
+      },
+      "L2": {
+        "pairs": 32,
+        "both_instructions_succeeded": 30,
+        "reached_different_objects": 32
+      },
+      "L3": {
+        "pairs": 32,
+        "both_instructions_succeeded": 29,
+        "reached_different_objects": 32
+      },
+      "L4": {
+        "pairs": 32,
+        "both_instructions_succeeded": 29,
+        "reached_different_objects": 31
+      }
+    },
+    "engineered": {
+      "L1": {
+        "pairs": 32,
+        "both_instructions_succeeded": 31,
+        "reached_different_objects": 31
+      },
+      "L2": {
+        "pairs": 32,
+        "both_instructions_succeeded": 31,
+        "reached_different_objects": 32
+      },
+      "L3": {
+        "pairs": 32,
+        "both_instructions_succeeded": 29,
+        "reached_different_objects": 32
+      },
+      "L4": {
+        "pairs": 32,
+        "both_instructions_succeeded": 29,
+        "reached_different_objects": 31
+      }
+    }
+  },
+  "feature_latency": {
+    "fresh_calls": 588,
+    "cache_hits": 3515,
+    "median_seconds": 0.9942488755041268,
+    "p95_seconds": 1.0870535619411386,
+    "p99_seconds": 1.1658836316940142,
+    "peak_memory_gb": 6.235283943
+  }
+}

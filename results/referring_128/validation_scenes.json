@@ -1,0 +1,3764 @@
+[
+  {
+    "idx": null,
+    "name": null,
+    "description": null,
+    "prompt": null,
+    "system_prompt": null,
+    "image": null,
+    "workdir": null,
+    "network_allow": [
+      "*"
+    ],
+    "network_block": [],
+    "artifacts": [],
+    "timeout": {
+      "setup": null,
+      "agent": null,
+      "finalize": null,
+      "scoring": null
+    },
+    "resources": {
+      "cpu": null,
+      "memory": null,
+      "gpu": null,
+      "disk": null
+    },
+    "seed": 31000,
+    "objects": [
+      {
+        "id": 0,
+        "color": "yellow",
+        "shape": "circle",
+        "size": "small",
+        "x": 0.4282575746366729,
+        "y": 0.23700687620473632,
+        "radius": 0.03125
+      },
+      {
+        "id": 1,
+        "color": "purple",
+        "shape": "triangle",
+        "size": "large",
+        "x": 0.3229771962569689,
+        "y": 0.4321865205159586,
+        "radius": 0.0546875
+      },
+      {
+        "id": 2,
+        "color": "green",
+        "shape": "circle",
+        "size": "small",
+        "x": 0.8582871215117585,
+        "y": 0.1594673642479524,
+        "radius": 0.03125
+      },
+      {
+        "id": 3,
+        "color": "blue",
+        "shape": "square",
+        "size": "large",
+        "x": 0.7600852021291236,
+        "y": 0.557546150398059,
+        "radius": 0.0546875
+      }
+    ],
+    "expression": {
+      "text": "the yellow circle",
+      "level": "L1",
+      "family": "attribute",
+      "attributes": {
+        "color": "yellow",
+        "shape": "circle",
+        "size": null,
+        "not_color": null
+      },
+      "relation": null,
+      "anchor": null,
+      "anchor2": null
+    },
+    "target_id": 0
+  },
+  {
+    "idx": null,
+    "name": null,
+    "description": null,
+    "prompt": null,
+    "system_prompt": null,
+    "image": null,
+    "workdir": null,
+    "network_allow": [
+      "*"
+    ],
+    "network_block": [],
+    "artifacts": [],
+    "timeout": {
+      "setup": null,
+      "agent": null,
+      "finalize": null,
+      "scoring": null
+    },
+    "resources": {
+      "cpu": null,
+      "memory": null,
+      "gpu": null,
+      "disk": null
+    },
+    "seed": 31000,
+    "objects": [
+      {
+        "id": 0,
+        "color": "yellow",
+        "shape": "circle",
+        "size": "small",
+        "x": 0.4282575746366729,
+        "y": 0.23700687620473632,
+        "radius": 0.03125
+      },
+      {
+        "id": 1,
+        "color": "purple",
+        "shape": "triangle",
+        "size": "large",
+        "x": 0.3229771962569689,
+        "y": 0.4321865205159586,
+        "radius": 0.0546875
+      },
+      {
+        "id": 2,
+        "color": "green",
+        "shape": "circle",
+        "size": "small",
+        "x": 0.8582871215117585,
+        "y": 0.1594673642479524,
+        "radius": 0.03125
+      },
+      {
+        "id": 3,
+        "color": "blue",
+        "shape": "square",
+        "size": "large",
+        "x": 0.7600852021291236,
+        "y": 0.557546150398059,
+        "radius": 0.0546875
+      }
+    ],
+    "expression": {
+      "text": "the green circle",
+      "level": "L1",
+      "family": "attribute",
+      "attributes": {
+        "color": "green",
+        "shape": "circle",
+        "size": null,
+        "not_color": null
+      },
+      "relation": null,
+      "anchor": null,
+      "anchor2": null
+    },
+    "target_id": 2
+  },
+  {
+    "idx": null,
+    "name": null,
+    "description": null,
+    "prompt": null,
+    "system_prompt": null,
+    "image": null,
+    "workdir": null,
+    "network_allow": [
+      "*"
+    ],
+    "network_block": [],
+    "artifacts": [],
+    "timeout": {
+      "setup": null,
+      "agent": null,
+      "finalize": null,
+      "scoring": null
+    },
+    "resources": {
+      "cpu": null,
+      "memory": null,
+      "gpu": null,
+      "disk": null
+    },
+    "seed": 31001,
+    "objects": [
+      {
+        "id": 0,
+        "color": "red",
+        "shape": "triangle",
+        "size": "small",
+        "x": 0.30030193438424124,
+        "y": 0.7003083459513376,
+        "radius": 0.03125
+      },
+      {
+        "id": 1,
+        "color": "red",
+        "shape": "triangle",
+        "size": "large",
+        "x": 0.14825123468802825,
+        "y": 0.1703881117220547,
+        "radius": 0.0546875
+      },
+      {
+        "id": 2,
+        "color": "green",
+        "shape": "triangle",
+        "size": "small",
+        "x": 0.8201236963918423,
+        "y": 0.4648035309631419,
+        "radius": 0.03125
+      },
+      {
+        "id": 3,
+        "color": "yellow",
+        "shape": "square",
+        "size": "large",
+        "x": 0.5779346471624651,
+        "y": 0.37465953913640776,
+        "radius": 0.0546875
+      }
+    ],
+    "expression": {
+      "text": "the yellow square",
+      "level": "L1",
+      "family": "attribute",
+      "attributes": {
+        "color": "yellow",
+        "shape": "square",
+        "size": null,
+        "not_color": null
+      },
+      "relation": null,
+      "anchor": null,
+      "anchor2": null
+    },
+    "target_id": 3
+  },
+  {
+    "idx": null,
+    "name": null,
+    "description": null,
+    "prompt": null,
+    "system_prompt": null,
+    "image": null,
+    "workdir": null,
+    "network_allow": [
+      "*"
+    ],
+    "network_block": [],
+    "artifacts": [],
+    "timeout": {
+      "setup": null,
+      "agent": null,
+      "finalize": null,
+      "scoring": null
+    },
+    "resources": {
+      "cpu": null,
+      "memory": null,
+      "gpu": null,
+      "disk": null
+    },
+    "seed": 31001,
+    "objects": [
+      {
+        "id": 0,
+        "color": "red",
+        "shape": "triangle",
+        "size": "small",
+        "x": 0.30030193438424124,
+        "y": 0.7003083459513376,
+        "radius": 0.03125
+      },
+      {
+        "id": 1,
+        "color": "red",
+        "shape": "triangle",
+        "size": "large",
+        "x": 0.14825123468802825,
+        "y": 0.1703881117220547,
+        "radius": 0.0546875
+      },
+      {
+        "id": 2,
+        "color": "green",
+        "shape": "triangle",
+        "size": "small",
+        "x": 0.8201236963918423,
+        "y": 0.4648035309631419,
+        "radius": 0.03125
+      },
+      {
+        "id": 3,
+        "color": "yellow",
+        "shape": "square",
+        "size": "large",
+        "x": 0.5779346471624651,
+        "y": 0.37465953913640776,
+        "radius": 0.0546875
+      }
+    ],
+    "expression": {
+      "text": "the green triangle",
+      "level": "L1",
+      "family": "attribute",
+      "attributes": {
+        "color": "green",
+        "shape": "triangle",
+        "size": null,
+        "not_color": null
+      },
+      "relation": null,
+      "anchor": null,
+      "anchor2": null
+    },
+    "target_id": 2
+  },
+  {
+    "idx": null,
+    "name": null,
+    "description": null,
+    "prompt": null,
+    "system_prompt": null,
+    "image": null,
+    "workdir": null,
+    "network_allow": [
+      "*"
+    ],
+    "network_block": [],
+    "artifacts": [],
+    "timeout": {
+      "setup": null,
+      "agent": null,
+      "finalize": null,
+      "scoring": null
+    },
+    "resources": {
+      "cpu": null,
+      "memory": null,
+      "gpu": null,
+      "disk": null
+    },
+    "seed": 31002,
+    "objects": [
+      {
+        "id": 0,
+        "color": "green",
+        "shape": "square",
+        "size": "large",
+        "x": 0.6465151268677667,
+        "y": 0.3695108981141769,
+        "radius": 0.0546875
+      },
+      {
+        "id": 1,
+        "color": "green",
+        "shape": "square",
+        "size": "large",
+        "x": 0.8138398953455319,
+        "y": 0.7741658630850311,
+        "radius": 0.0546875
+      },
+      {
+        "id": 2,
+        "color": "red",
+        "shape": "circle",
+        "size": "large",
+        "x": 0.8343216372185595,
+        "y": 0.45968097397140595,
+        "radius": 0.0546875
+      },
+      {
+        "id": 3,
+        "color": "yellow",
+        "shape": "square",
+        "size": "large",
+        "x": 0.19758980486615918,
+        "y": 0.14402266639613917,
+        "radius": 0.0546875
+      }
+    ],
+    "expression": {
+      "text": "the red circle",
+      "level": "L1",
+      "family": "attribute",
+      "attributes": {
+        "color": "red",
+        "shape": "circle",
+        "size": null,
+        "not_color": null
+      },
+      "relation": null,
+      "anchor": null,
+      "anchor2": null
+    },
+    "target_id": 2
+  },
+  {
+    "idx": null,
+    "name": null,
+    "description": null,
+    "prompt": null,
+    "system_prompt": null,
+    "image": null,
+    "workdir": null,
+    "network_allow": [
+      "*"
+    ],
+    "network_block": [],
+    "artifacts": [],
+    "timeout": {
+      "setup": null,
+      "agent": null,
+      "finalize": null,
+      "scoring": null
+    },
+    "resources": {
+      "cpu": null,
+      "memory": null,
+      "gpu": null,
+      "disk": null
+    },
+    "seed": 31002,
+    "objects": [
+      {
+        "id": 0,
+        "color": "green",
+        "shape": "square",
+        "size": "large",
+        "x": 0.6465151268677667,
+        "y": 0.3695108981141769,
+        "radius": 0.0546875
+      },
+      {
+        "id": 1,
+        "color": "green",
+        "shape": "square",
+        "size": "large",
+        "x": 0.8138398953455319,
+        "y": 0.7741658630850311,
+        "radius": 0.0546875
+      },
+      {
+        "id": 2,
+        "color": "red",
+        "shape": "circle",
+        "size": "large",
+        "x": 0.8343216372185595,
+        "y": 0.45968097397140595,
+        "radius": 0.0546875
+      },
+      {
+        "id": 3,
+        "color": "yellow",
+        "shape": "square",
+        "size": "large",
+        "x": 0.19758980486615918,
+        "y": 0.14402266639613917,
+        "radius": 0.0546875
+      }
+    ],
+    "expression": {
+      "text": "the yellow square",
+      "level": "L1",
+      "family": "attribute",
+      "attributes": {
+        "color": "yellow",
+        "shape": "square",
+        "size": null,
+        "not_color": null
+      },
+      "relation": null,
+      "anchor": null,
+      "anchor2": null
+    },
+    "target_id": 3
+  },
+  {
+    "idx": null,
+    "name": null,
+    "description": null,
+    "prompt": null,
+    "system_prompt": null,
+    "image": null,
+    "workdir": null,
+    "network_allow": [
+      "*"
+    ],
+    "network_block": [],
+    "artifacts": [],
+    "timeout": {
+      "setup": null,
+      "agent": null,
+      "finalize": null,
+      "scoring": null
+    },
+    "resources": {
+      "cpu": null,
+      "memory": null,
+      "gpu": null,
+      "disk": null
+    },
+    "seed": 31003,
+    "objects": [
+      {
+        "id": 0,
+        "color": "purple",
+        "shape": "circle",
+        "size": "large",
+        "x": 0.7812690387009305,
+        "y": 0.7585925219986969,
+        "radius": 0.0546875
+      },
+      {
+        "id": 1,
+        "color": "blue",
+        "shape": "square",
+        "size": "large",
+        "x": 0.5824825176564566,
+        "y": 0.21065563427592926,
+        "radius": 0.0546875
+      },
+      {
+        "id": 2,
+        "color": "blue",
+        "shape": "triangle",
+        "size": "small",
+        "x": 0.29924491475662895,
+        "y": 0.7519770305710661,
+        "radius": 0.03125
+      },
+      {
+        "id": 3,
+        "color": "purple",
+        "shape": "circle",
+        "size": "large",
+        "x": 0.28151155881743145,
+        "y": 0.41052503582509775,
+        "radius": 0.0546875
+      }
+    ],
+    "expression": {
+      "text": "the blue square",
+      "level": "L1",
+      "family": "attribute",
+      "attributes": {
+        "color": "blue",
+        "shape": "square",
+        "size": null,
+        "not_color": null
+      },
+      "relation": null,
+      "anchor": null,
+      "anchor2": null
+    },
+    "target_id": 1
+  },
+  {
+    "idx": null,
+    "name": null,
+    "description": null,
+    "prompt": null,
+    "system_prompt": null,
+    "image": null,
+    "workdir": null,
+    "network_allow": [
+      "*"
+    ],
+    "network_block": [],
+    "artifacts": [],
+    "timeout": {
+      "setup": null,
+      "agent": null,
+      "finalize": null,
+      "scoring": null
+    },
+    "resources": {
+      "cpu": null,
+      "memory": null,
+      "gpu": null,
+      "disk": null
+    },
+    "seed": 31003,
+    "objects": [
+      {
+        "id": 0,
+        "color": "purple",
+        "shape": "circle",
+        "size": "large",
+        "x": 0.7812690387009305,
+        "y": 0.7585925219986969,
+        "radius": 0.0546875
+      },
+      {
+        "id": 1,
+        "color": "blue",
+        "shape": "square",
+        "size": "large",
+        "x": 0.5824825176564566,
+        "y": 0.21065563427592926,
+        "radius": 0.0546875
+      },
+      {
+        "id": 2,
+        "color": "blue",
+        "shape": "triangle",
+        "size": "small",
+        "x": 0.29924491475662895,
+        "y": 0.7519770305710661,
+        "radius": 0.03125
+      },
+      {
+        "id": 3,
+        "color": "purple",
+        "shape": "circle",
+        "size": "large",
+        "x": 0.28151155881743145,
+        "y": 0.41052503582509775,
+        "radius": 0.0546875
+      }
+    ],
+    "expression": {
+      "text": "the blue triangle",
+      "level": "L1",
+      "family": "attribute",
+      "attributes": {
+        "color": "blue",
+        "shape": "triangle",
+        "size": null,
+        "not_color": null
+      },
+      "relation": null,
+      "anchor": null,
+      "anchor2": null
+    },
+    "target_id": 2
+  },
+  {
+    "idx": null,
+    "name": null,
+    "description": null,
+    "prompt": null,
+    "system_prompt": null,
+    "image": null,
+    "workdir": null,
+    "network_allow": [
+      "*"
+    ],
+    "network_block": [],
+    "artifacts": [],
+    "timeout": {
+      "setup": null,
+      "agent": null,
+      "finalize": null,
+      "scoring": null
+    },
+    "resources": {
+      "cpu": null,
+      "memory": null,
+      "gpu": null,
+      "disk": null
+    },
+    "seed": 31004,
+    "objects": [
+      {
+        "id": 0,
+        "color": "purple",
+        "shape": "triangle",
+        "size": "large",
+        "x": 0.7707673611145253,
+        "y": 0.5385435605128284,
+        "radius": 0.0546875
+      },
+      {
+        "id": 1,
+        "color": "blue",
+        "shape": "circle",
+        "size": "large",
+        "x": 0.8078764183002238,
+        "y": 0.8501567961475839,
+        "radius": 0.0546875
+      }
+    ],
+    "expression": {
+      "text": "the purple triangle",
+      "level": "L1",
+      "family": "attribute",
+      "attributes": {
+        "color": "purple",
+        "shape": "triangle",
+        "size": null,
+        "not_color": null
+      },
+      "relation": null,
+      "anchor": null,
+      "anchor2": null
+    },
+    "target_id": 0
+  },
+  {
+    "idx": null,
+    "name": null,
+    "description": null,
+    "prompt": null,
+    "system_prompt": null,
+    "image": null,
+    "workdir": null,
+    "network_allow": [
+      "*"
+    ],
+    "network_block": [],
+    "artifacts": [],
+    "timeout": {
+      "setup": null,
+      "agent": null,
+      "finalize": null,
+      "scoring": null
+    },
+    "resources": {
+      "cpu": null,
+      "memory": null,
+      "gpu": null,
+      "disk": null
+    },
+    "seed": 31004,
+    "objects": [
+      {
+        "id": 0,
+        "color": "purple",
+        "shape": "triangle",
+        "size": "large",
+        "x": 0.7707673611145253,
+        "y": 0.5385435605128284,
+        "radius": 0.0546875
+      },
+      {
+        "id": 1,
+        "color": "blue",
+        "shape": "circle",
+        "size": "large",
+        "x": 0.8078764183002238,
+        "y": 0.8501567961475839,
+        "radius": 0.0546875
+      }
+    ],
+    "expression": {
+      "text": "the blue circle",
+      "level": "L1",
+      "family": "attribute",
+      "attributes": {
+        "color": "blue",
+        "shape": "circle",
+        "size": null,
+        "not_color": null
+      },
+      "relation": null,
+      "anchor": null,
+      "anchor2": null
+    },
+    "target_id": 1
+  },
+  {
+    "idx": null,
+    "name": null,
+    "description": null,
+    "prompt": null,
+    "system_prompt": null,
+    "image": null,
+    "workdir": null,
+    "network_allow": [
+      "*"
+    ],
+    "network_block": [],
+    "artifacts": [],
+    "timeout": {
+      "setup": null,
+      "agent": null,
+      "finalize": null,
+      "scoring": null
+    },
+    "resources": {
+      "cpu": null,
+      "memory": null,
+      "gpu": null,
+      "disk": null
+    },
+    "seed": 31005,
+    "objects": [
+      {
+        "id": 0,
+        "color": "blue",
+        "shape": "square",
+        "size": "large",
+        "x": 0.13701734645272742,
+        "y": 0.13093652533737105,
+        "radius": 0.0546875
+      },
+      {
+        "id": 1,
+        "color": "red",
+        "shape": "triangle",
+        "size": "small",
+        "x": 0.8583374608093848,
+        "y": 0.14201840410096228,
+        "radius": 0.03125
+      },
+      {
+        "id": 2,
+        "color": "yellow",
+        "shape": "square",
+        "size": "large",
+        "x": 0.14310771907189535,
+        "y": 0.5885031450328536,
+        "radius": 0.0546875
+      }
+    ],
+    "expression": {
+      "text": "the yellow square",
+      "level": "L1",
+      "family": "attribute",
+      "attributes": {
+        "color": "yellow",
+        "shape": "square",
+        "size": null,
+        "not_color": null
+      },
+      "relation": null,
+      "anchor": null,
+      "anchor2": null
+    },
+    "target_id": 2
+  },
+  {
+    "idx": null,
+    "name": null,
+    "description": null,
+    "prompt": null,
+    "system_prompt": null,
+    "image": null,
+    "workdir": null,
+    "network_allow": [
+      "*"
+    ],
+    "network_block": [],
+    "artifacts": [],
+    "timeout": {
+      "setup": null,
+      "agent": null,
+      "finalize": null,
+      "scoring": null
+    },
+    "resources": {
+      "cpu": null,
+      "memory": null,
+      "gpu": null,
+      "disk": null
+    },
+    "seed": 31005,
+    "objects": [
+      {
+        "id": 0,
+        "color": "blue",
+        "shape": "square",
+        "size": "large",
+        "x": 0.13701734645272742,
+        "y": 0.13093652533737105,
+        "radius": 0.0546875
+      },
+      {
+        "id": 1,
+        "color": "red",
+        "shape": "triangle",
+        "size": "small",
+        "x": 0.8583374608093848,
+        "y": 0.14201840410096228,
+        "radius": 0.03125
+      },
+      {
+        "id": 2,
+        "color": "yellow",
+        "shape": "square",
+        "size": "large",
+        "x": 0.14310771907189535,
+        "y": 0.5885031450328536,
+        "radius": 0.0546875
+      }
+    ],
+    "expression": {
+      "text": "the blue square",
+      "level": "L1",
+      "family": "attribute",
+      "attributes": {
+        "color": "blue",
+        "shape": "square",
+        "size": null,
+        "not_color": null
+      },
+      "relation": null,
+      "anchor": null,
+      "anchor2": null
+    },
+    "target_id": 0
+  },
+  {
+    "idx": null,
+    "name": null,
+    "description": null,
+    "prompt": null,
+    "system_prompt": null,
+    "image": null,
+    "workdir": null,
+    "network_allow": [
+      "*"
+    ],
+    "network_block": [],
+    "artifacts": [],
+    "timeout": {
+      "setup": null,
+      "agent": null,
+      "finalize": null,
+      "scoring": null
+    },
+    "resources": {
+      "cpu": null,
+      "memory": null,
+      "gpu": null,
+      "disk": null
+    },
+    "seed": 31006,
+    "objects": [
+      {
+        "id": 0,
+        "color": "purple",
+        "shape": "circle",
+        "size": "small",
+        "x": 0.3643029128470751,
+        "y": 0.5123424353211685,
+        "radius": 0.03125
+      },
+      {
+        "id": 1,
+        "color": "purple",
+        "shape": "circle",
+        "size": "large",
+        "x": 0.17446393709637303,
+        "y": 0.16629222230252153,
+        "radius": 0.0546875
+      },
+      {
+        "id": 2,
+        "color": "yellow",
+        "shape": "square",
+        "size": "large",
+        "x": 0.8213801558119024,
+        "y": 0.3383600538359316,
+        "radius": 0.0546875
+      },
+      {
+        "id": 3,
+        "color": "blue",
+        "shape": "square",
+        "size": "large",
+        "x": 0.5248885102095285,
+        "y": 0.6639100511224494,
+        "radius": 0.0546875
+      }
+    ],
+    "expression": {
+      "text": "the yellow square",
+      "level": "L1",
+      "family": "attribute",
+      "attributes": {
+        "color": "yellow",
+        "shape": "square",
+        "size": null,
+        "not_color": null
+      },
+      "relation": null,
+      "anchor": null,
+      "anchor2": null
+    },
+    "target_id": 2
+  },
+  {
+    "idx": null,
+    "name": null,
+    "description": null,
+    "prompt": null,
+    "system_prompt": null,
+    "image": null,
+    "workdir": null,
+    "network_allow": [
+      "*"
+    ],
+    "network_block": [],
+    "artifacts": [],
+    "timeout": {
+      "setup": null,
+      "agent": null,
+      "finalize": null,
+      "scoring": null
+    },
+    "resources": {
+      "cpu": null,
+      "memory": null,
+      "gpu": null,
+      "disk": null
+    },
+    "seed": 31006,
+    "objects": [
+      {
+        "id": 0,
+        "color": "purple",
+        "shape": "circle",
+        "size": "small",
+        "x": 0.3643029128470751,
+        "y": 0.5123424353211685,
+        "radius": 0.03125
+      },
+      {
+        "id": 1,
+        "color": "purple",
+        "shape": "circle",
+        "size": "large",
+        "x": 0.17446393709637303,
+        "y": 0.16629222230252153,
+        "radius": 0.0546875
+      },
+      {
+        "id": 2,
+        "color": "yellow",
+        "shape": "square",
+        "size": "large",
+        "x": 0.8213801558119024,
+        "y": 0.3383600538359316,
+        "radius": 0.0546875
+      },
+      {
+        "id": 3,
+        "color": "blue",
+        "shape": "square",
+        "size": "large",
+        "x": 0.5248885102095285,
+        "y": 0.6639100511224494,
+        "radius": 0.0546875
+      }
+    ],
+    "expression": {
+      "text": "the blue square",
+      "level": "L1",
+      "family": "attribute",
+      "attributes": {
+        "color": "blue",
+        "shape": "square",
+        "size": null,
+        "not_color": null
+      },
+      "relation": null,
+      "anchor": null,
+      "anchor2": null
+    },
+    "target_id": 3
+  },
+  {
+    "idx": null,
+    "name": null,
+    "description": null,
+    "prompt": null,
+    "system_prompt": null,
+    "image": null,
+    "workdir": null,
+    "network_allow": [
+      "*"
+    ],
+    "network_block": [],
+    "artifacts": [],
+    "timeout": {
+      "setup": null,
+      "agent": null,
+      "finalize": null,
+      "scoring": null
+    },
+    "resources": {
+      "cpu": null,
+      "memory": null,
+      "gpu": null,
+      "disk": null
+    },
+    "seed": 31007,
+    "objects": [
+      {
+        "id": 0,
+        "color": "red",
+        "shape": "triangle",
+        "size": "small",
+        "x": 0.41665531077749207,
+        "y": 0.19047085174217446,
+        "radius": 0.03125
+      },
+      {
+        "id": 1,
+        "color": "red",
+        "shape": "square",
+        "size": "large",
+        "x": 0.15663758879210654,
+        "y": 0.426138705755464,
+        "radius": 0.0546875
+      },
+      {
+        "id": 2,
+        "color": "purple",
+        "shape": "triangle",
+        "size": "small",
+        "x": 0.6810663827082535,
+        "y": 0.22378904109340986,
+        "radius": 0.03125
+      }
+    ],
+    "expression": {
+      "text": "the purple triangle",
+      "level": "L1",
+      "family": "attribute",
+      "attributes": {
+        "color": "purple",
+        "shape": "triangle",
+        "size": null,
+        "not_color": null
+      },
+      "relation": null,
+      "anchor": null,
+      "anchor2": null
+    },
+    "target_id": 2
+  },
+  {
+    "idx": null,
+    "name": null,
+    "description": null,
+    "prompt": null,
+    "system_prompt": null,
+    "image": null,
+    "workdir": null,
+    "network_allow": [
+      "*"
+    ],
+    "network_block": [],
+    "artifacts": [],
+    "timeout": {
+      "setup": null,
+      "agent": null,
+      "finalize": null,
+      "scoring": null
+    },
+    "resources": {
+      "cpu": null,
+      "memory": null,
+      "gpu": null,
+      "disk": null
+    },
+    "seed": 31007,
+    "objects": [
+      {
+        "id": 0,
+        "color": "red",
+        "shape": "triangle",
+        "size": "small",
+        "x": 0.41665531077749207,
+        "y": 0.19047085174217446,
+        "radius": 0.03125
+      },
+      {
+        "id": 1,
+        "color": "red",
+        "shape": "square",
+        "size": "large",
+        "x": 0.15663758879210654,
+        "y": 0.426138705755464,
+        "radius": 0.0546875
+      },
+      {
+        "id": 2,
+        "color": "purple",
+        "shape": "triangle",
+        "size": "small",
+        "x": 0.6810663827082535,
+        "y": 0.22378904109340986,
+        "radius": 0.03125
+      }
+    ],
+    "expression": {
+      "text": "the red square",
+      "level": "L1",
+      "family": "attribute",
+      "attributes": {
+        "color": "red",
+        "shape": "square",
+        "size": null,
+        "not_color": null
+      },
+      "relation": null,
+      "anchor": null,
+      "anchor2": null
+    },
+    "target_id": 1
+  },
+  {
+    "idx": null,
+    "name": null,
+    "description": null,
+    "prompt": null,
+    "system_prompt": null,
+    "image": null,
+    "workdir": null,
+    "network_allow": [
+      "*"
+    ],
+    "network_block": [],
+    "artifacts": [],
+    "timeout": {
+      "setup": null,
+      "agent": null,
+      "finalize": null,
+      "scoring": null
+    },
+    "resources": {
+      "cpu": null,
+      "memory": null,
+      "gpu": null,
+      "disk": null
+    },
+    "seed": 32000,
+    "objects": [
+      {
+        "id": 0,
+        "color": "red",
+        "shape": "circle",
+        "size": "large",
+        "x": 0.7392826519091354,
+        "y": 0.5986243156968214,
+        "radius": 0.0546875
+      },
+      {
+        "id": 1,
+        "color": "red",
+        "shape": "circle",
+        "size": "large",
+        "x": 0.14429818649565682,
+        "y": 0.17877057216911,
+        "radius": 0.0546875
+      },
+      {
+        "id": 2,
+        "color": "yellow",
+        "shape": "circle",
+        "size": "small",
+        "x": 0.5838553583609072,
+        "y": 0.19266087151788513,
+        "radius": 0.03125
+      }
+    ],
+    "expression": {
+      "text": "the circle left of the yellow circle",
+      "level": "L2",
+      "family": "relation",
+      "attributes": {
+        "color": null,
+        "shape": "circle",
+        "size": null,
+        "not_color": null
+      },
+      "relation": "left of",
+      "anchor": {
+        "color": "yellow",
+        "shape": "circle",
+        "size": null,
+        "not_color": null
+      },
+      "anchor2": null
+    },
+    "target_id": 1
+  },
+  {
+    "idx": null,
+    "name": null,
+    "description": null,
+    "prompt": null,
+    "system_prompt": null,
+    "image": null,
+    "workdir": null,
+    "network_allow": [
+      "*"
+    ],
+    "network_block": [],
+    "artifacts": [],
+    "timeout": {
+      "setup": null,
+      "agent": null,
+      "finalize": null,
+      "scoring": null
+    },
+    "resources": {
+      "cpu": null,
+      "memory": null,
+      "gpu": null,
+      "disk": null
+    },
+    "seed": 32000,
+    "objects": [
+      {
+        "id": 0,
+        "color": "red",
+        "shape": "circle",
+        "size": "large",
+        "x": 0.7392826519091354,
+        "y": 0.5986243156968214,
+        "radius": 0.0546875
+      },
+      {
+        "id": 1,
+        "color": "red",
+        "shape": "circle",
+        "size": "large",
+        "x": 0.14429818649565682,
+        "y": 0.17877057216911,
+        "radius": 0.0546875
+      },
+      {
+        "id": 2,
+        "color": "yellow",
+        "shape": "circle",
+        "size": "small",
+        "x": 0.5838553583609072,
+        "y": 0.19266087151788513,
+        "radius": 0.03125
+      }
+    ],
+    "expression": {
+      "text": "the circle right of the yellow circle",
+      "level": "L2",
+      "family": "relation",
+      "attributes": {
+        "color": null,
+        "shape": "circle",
+        "size": null,
+        "not_color": null
+      },
+      "relation": "right of",
+      "anchor": {
+        "color": "yellow",
+        "shape": "circle",
+        "size": null,
+        "not_color": null
+      },
+      "anchor2": null
+    },
+    "target_id": 0
+  },
+  {
+    "idx": null,
+    "name": null,
+    "description": null,
+    "prompt": null,
+    "system_prompt": null,
+    "image": null,
+    "workdir": null,
+    "network_allow": [
+      "*"
+    ],
+    "network_block": [],
+    "artifacts": [],
+    "timeout": {
+      "setup": null,
+      "agent": null,
+      "finalize": null,
+      "scoring": null
+    },
+    "resources": {
+      "cpu": null,
+      "memory": null,
+      "gpu": null,
+      "disk": null
+    },
+    "seed": 32001,
+    "objects": [
+      {
+        "id": 0,
+        "color": "green",
+        "shape": "triangle",
+        "size": "small",
+        "x": 0.6104948521879641,
+        "y": 0.45302895160521994,
+        "radius": 0.03125
+      },
+      {
+        "id": 1,
+        "color": "green",
+        "shape": "triangle",
+        "size": "small",
+        "x": 0.5401104070688211,
+        "y": 0.7143953849248369,
+        "radius": 0.03125
+      },
+      {
+        "id": 2,
+        "color": "blue",
+        "shape": "square",
+        "size": "large",
+        "x": 0.2423925667909006,
+        "y": 0.5238778095822733,
+        "radius": 0.0546875
+      }
+    ],
+    "expression": {
+      "text": "the triangle behind the blue square",
+      "level": "L2",
+      "family": "relation",
+      "attributes": {
+        "color": null,
+        "shape": "triangle",
+        "size": null,
+        "not_color": null
+      },
+      "relation": "behind",
+      "anchor": {
+        "color": "blue",
+        "shape": "square",
+        "size": null,
+        "not_color": null
+      },
+      "anchor2": null
+    },
+    "target_id": 0
+  },
+  {
+    "idx": null,
+    "name": null,
+    "description": null,
+    "prompt": null,
+    "system_prompt": null,
+    "image": null,
+    "workdir": null,
+    "network_allow": [
+      "*"
+    ],
+    "network_block": [],
+    "artifacts": [],
+    "timeout": {
+      "setup": null,
+      "agent": null,
+      "finalize": null,
+      "scoring": null
+    },
+    "resources": {
+      "cpu": null,
+      "memory": null,
+      "gpu": null,
+      "disk": null
+    },
+    "seed": 32001,
+    "objects": [
+      {
+        "id": 0,
+        "color": "green",
+        "shape": "triangle",
+        "size": "small",
+        "x": 0.6104948521879641,
+        "y": 0.45302895160521994,
+        "radius": 0.03125
+      },
+      {
+        "id": 1,
+        "color": "green",
+        "shape": "triangle",
+        "size": "small",
+        "x": 0.5401104070688211,
+        "y": 0.7143953849248369,
+        "radius": 0.03125
+      },
+      {
+        "id": 2,
+        "color": "blue",
+        "shape": "square",
+        "size": "large",
+        "x": 0.2423925667909006,
+        "y": 0.5238778095822733,
+        "radius": 0.0546875
+      }
+    ],
+    "expression": {
+      "text": "the triangle in front of the blue square",
+      "level": "L2",
+      "family": "relation",
+      "attributes": {
+        "color": null,
+        "shape": "triangle",
+        "size": null,
+        "not_color": null
+      },
+      "relation": "in front of",
+      "anchor": {
+        "color": "blue",
+        "shape": "square",
+        "size": null,
+        "not_color": null
+      },
+      "anchor2": null
+    },
+    "target_id": 1
+  },
+  {
+    "idx": null,
+    "name": null,
+    "description": null,
+    "prompt": null,
+    "system_prompt": null,
+    "image": null,
+    "workdir": null,
+    "network_allow": [
+      "*"
+    ],
+    "network_block": [],
+    "artifacts": [],
+    "timeout": {
+      "setup": null,
+      "agent": null,
+      "finalize": null,
+      "scoring": null
+    },
+    "resources": {
+      "cpu": null,
+      "memory": null,
+      "gpu": null,
+      "disk": null
+    },
+    "seed": 32002,
+    "objects": [
+      {
+        "id": 0,
+        "color": "yellow",
+        "shape": "square",
+        "size": "large",
+        "x": 0.6580490202873602,
+        "y": 0.8378823932073887,
+        "radius": 0.0546875
+      },
+      {
+        "id": 1,
+        "color": "yellow",
+        "shape": "triangle",
+        "size": "large",
+        "x": 0.5528865714597486,
+        "y": 0.327602031829691,
+        "radius": 0.0546875
+      },
+      {
+        "id": 2,
+        "color": "yellow",
+        "shape": "square",
+        "size": "small",
+        "x": 0.764293776619684,
+        "y": 0.17947159729713805,
+        "radius": 0.03125
+      },
+      {
+        "id": 3,
+        "color": "yellow",
+        "shape": "circle",
+        "size": "small",
+        "x": 0.22832701284273732,
+        "y": 0.6221207655321963,
+        "radius": 0.03125
+      }
+    ],
+    "expression": {
+      "text": "the square in front of the yellow triangle",
+      "level": "L2",
+      "family": "relation",
+      "attributes": {
+        "color": null,
+        "shape": "square",
+        "size": null,
+        "not_color": null
+      },
+      "relation": "in front of",
+      "anchor": {
+        "color": "yellow",
+        "shape": "triangle",
+        "size": null,
+        "not_color": null
+      },
+      "anchor2": null
+    },
+    "target_id": 0
+  },
+  {
+    "idx": null,
+    "name": null,
+    "description": null,
+    "prompt": null,
+    "system_prompt": null,
+    "image": null,
+    "workdir": null,
+    "network_allow": [
+      "*"
+    ],
+    "network_block": [],
+    "artifacts": [],
+    "timeout": {
+      "setup": null,
+      "agent": null,
+      "finalize": null,
+      "scoring": null
+    },
+    "resources": {
+      "cpu": null,
+      "memory": null,
+      "gpu": null,
+      "disk": null
+    },
+    "seed": 32002,
+    "objects": [
+      {
+        "id": 0,
+        "color": "yellow",
+        "shape": "square",
+        "size": "large",
+        "x": 0.6580490202873602,
+        "y": 0.8378823932073887,
+        "radius": 0.0546875
+      },
+      {
+        "id": 1,
+        "color": "yellow",
+        "shape": "triangle",
+        "size": "large",
+        "x": 0.5528865714597486,
+        "y": 0.327602031829691,
+        "radius": 0.0546875
+      },
+      {
+        "id": 2,
+        "color": "yellow",
+        "shape": "square",
+        "size": "small",
+        "x": 0.764293776619684,
+        "y": 0.17947159729713805,
+        "radius": 0.03125
+      },
+      {
+        "id": 3,
+        "color": "yellow",
+        "shape": "circle",
+        "size": "small",
+        "x": 0.22832701284273732,
+        "y": 0.6221207655321963,
+        "radius": 0.03125
+      }
+    ],
+    "expression": {
+      "text": "the square behind the yellow triangle",
+      "level": "L2",
+      "family": "relation",
+      "attributes": {
+        "color": null,
+        "shape": "square",
+        "size": null,
+        "not_color": null
+      },
+      "relation": "behind",
+      "anchor": {
+        "color": "yellow",
+        "shape": "triangle",
+        "size": null,
+        "not_color": null
+      },
+      "anchor2": null
+    },
+    "target_id": 2
+  },
+  {
+    "idx": null,
+    "name": null,
+    "description": null,
+    "prompt": null,
+    "system_prompt": null,
+    "image": null,
+    "workdir": null,
+    "network_allow": [
+      "*"
+    ],
+    "network_block": [],
+    "artifacts": [],
+    "timeout": {
+      "setup": null,
+      "agent": null,
+      "finalize": null,
+      "scoring": null
+    },
+    "resources": {
+      "cpu": null,
+      "memory": null,
+      "gpu": null,
+      "disk": null
+    },
+    "seed": 32003,
+    "objects": [
+      {
+        "id": 0,
+        "color": "green",
+        "shape": "square",
+        "size": "large",
+        "x": 0.5246436336953251,
+        "y": 0.1846134376000505,
+        "radius": 0.0546875
+      },
+      {
+        "id": 1,
+        "color": "red",
+        "shape": "square",
+        "size": "small",
+        "x": 0.6882110471237933,
+        "y": 0.4297694743755436,
+        "radius": 0.03125
+      },
+      {
+        "id": 2,
+        "color": "purple",
+        "shape": "circle",
+        "size": "small",
+        "x": 0.1356874806353355,
+        "y": 0.826864996657417,
+        "radius": 0.03125
+      },
+      {
+        "id": 3,
+        "color": "blue",
+        "shape": "circle",
+        "size": "small",
+        "x": 0.5459779259496582,
+        "y": 0.612258082582209,
+        "radius": 0.03125
+      }
+    ],
+    "expression": {
+      "text": "the square right of the blue circle",
+      "level": "L2",
+      "family": "relation",
+      "attributes": {
+        "color": null,
+        "shape": "square",
+        "size": null,
+        "not_color": null
+      },
+      "relation": "right of",
+      "anchor": {
+        "color": "blue",
+        "shape": "circle",
+        "size": null,
+        "not_color": null
+      },
+      "anchor2": null
+    },
+    "target_id": 1
+  },
+  {
+    "idx": null,
+    "name": null,
+    "description": null,
+    "prompt": null,
+    "system_prompt": null,
+    "image": null,
+    "workdir": null,
+    "network_allow": [
+      "*"
+    ],
+    "network_block": [],
+    "artifacts": [],
+    "timeout": {
+      "setup": null,
+      "agent": null,
+      "finalize": null,
+      "scoring": null
+    },
+    "resources": {
+      "cpu": null,
+      "memory": null,
+      "gpu": null,
+      "disk": null
+    },
+    "seed": 32003,
+    "objects": [
+      {
+        "id": 0,
+        "color": "green",
+        "shape": "square",
+        "size": "large",
+        "x": 0.5246436336953251,
+        "y": 0.1846134376000505,
+        "radius": 0.0546875
+      },
+      {
+        "id": 1,
+        "color": "red",
+        "shape": "square",
+        "size": "small",
+        "x": 0.6882110471237933,
+        "y": 0.4297694743755436,
+        "radius": 0.03125
+      },
+      {
+        "id": 2,
+        "color": "purple",
+        "shape": "circle",
+        "size": "small",
+        "x": 0.1356874806353355,
+        "y": 0.826864996657417,
+        "radius": 0.03125
+      },
+      {
+        "id": 3,
+        "color": "blue",
+        "shape": "circle",
+        "size": "small",
+        "x": 0.5459779259496582,
+        "y": 0.612258082582209,
+        "radius": 0.03125
+      }
+    ],
+    "expression": {
+      "text": "the circle in front of the blue circle",
+      "level": "L2",
+      "family": "relation",
+      "attributes": {
+        "color": null,
+        "shape": "circle",
+        "size": null,
+        "not_color": null
+      },
+      "relation": "in front of",
+      "anchor": {
+        "color": "blue",
+        "shape": "circle",
+        "size": null,
+        "not_color": null
+      },
+      "anchor2": null
+    },
+    "target_id": 2
+  },
+  {
+    "idx": null,
+    "name": null,
+    "description": null,
+    "prompt": null,
+    "system_prompt": null,
+    "image": null,
+    "workdir": null,
+    "network_allow": [
+      "*"
+    ],
+    "network_block": [],
+    "artifacts": [],
+    "timeout": {
+      "setup": null,
+      "agent": null,
+      "finalize": null,
+      "scoring": null
+    },
+    "resources": {
+      "cpu": null,
+      "memory": null,
+      "gpu": null,
+      "disk": null
+    },
+    "seed": 32004,
+    "objects": [
+      {
+        "id": 0,
+        "color": "red",
+        "shape": "square",
+        "size": "large",
+        "x": 0.14050893188089175,
+        "y": 0.3370610510493174,
+        "radius": 0.0546875
+      },
+      {
+        "id": 1,
+        "color": "red",
+        "shape": "square",
+        "size": "large",
+        "x": 0.8548635322003028,
+        "y": 0.39442804822562727,
+        "radius": 0.0546875
+      },
+      {
+        "id": 2,
+        "color": "red",
+        "shape": "circle",
+        "size": "large",
+        "x": 0.47611733213391483,
+        "y": 0.2245780179567231,
+        "radius": 0.0546875
+      },
+      {
+        "id": 3,
+        "color": "yellow",
+        "shape": "square",
+        "size": "large",
+        "x": 0.6181309879929914,
+        "y": 0.5603113994476528,
+        "radius": 0.0546875
+      }
+    ],
+    "expression": {
+      "text": "the square right of the yellow square",
+      "level": "L2",
+      "family": "relation",
+      "attributes": {
+        "color": null,
+        "shape": "square",
+        "size": null,
+        "not_color": null
+      },
+      "relation": "right of",
+      "anchor": {
+        "color": "yellow",
+        "shape": "square",
+        "size": null,
+        "not_color": null
+      },
+      "anchor2": null
+    },
+    "target_id": 1
+  },
+  {
+    "idx": null,
+    "name": null,
+    "description": null,
+    "prompt": null,
+    "system_prompt": null,
+    "image": null,
+    "workdir": null,
+    "network_allow": [
+      "*"
+    ],
+    "network_block": [],
+    "artifacts": [],
+    "timeout": {
+      "setup": null,
+      "agent": null,
+      "finalize": null,
+      "scoring": null
+    },
+    "resources": {
+      "cpu": null,
+      "memory": null,
+      "gpu": null,
+      "disk": null
+    },
+    "seed": 32004,
+    "objects": [
+      {
+        "id": 0,
+        "color": "red",
+        "shape": "square",
+        "size": "large",
+        "x": 0.14050893188089175,
+        "y": 0.3370610510493174,
+        "radius": 0.0546875
+      },
+      {
+        "id": 1,
+        "color": "red",
+        "shape": "square",
+        "size": "large",
+        "x": 0.8548635322003028,
+        "y": 0.39442804822562727,
+        "radius": 0.0546875
+      },
+      {
+        "id": 2,
+        "color": "red",
+        "shape": "circle",
+        "size": "large",
+        "x": 0.47611733213391483,
+        "y": 0.2245780179567231,
+        "radius": 0.0546875
+      },
+      {
+        "id": 3,
+        "color": "yellow",
+        "shape": "square",
+        "size": "large",
+        "x": 0.6181309879929914,
+        "y": 0.5603113994476528,
+        "radius": 0.0546875
+      }
+    ],
+    "expression": {
+      "text": "the square left of the red circle",
+      "level": "L2",
+      "family": "relation",
+      "attributes": {
+        "color": null,
+        "shape": "square",
+        "size": null,
+        "not_color": null
+      },
+      "relation": "left of",
+      "anchor": {
+        "color": "red",
+        "shape": "circle",
+        "size": null,
+        "not_color": null
+      },
+      "anchor2": null
+    },
+    "target_id": 0
+  },
+  {
+    "idx": null,
+    "name": null,
+    "description": null,
+    "prompt": null,
+    "system_prompt": null,
+    "image": null,
+    "workdir": null,
+    "network_allow": [
+      "*"
+    ],
+    "network_block": [],
+    "artifacts": [],
+    "timeout": {
+      "setup": null,
+      "agent": null,
+      "finalize": null,
+      "scoring": null
+    },
+    "resources": {
+      "cpu": null,
+      "memory": null,
+      "gpu": null,
+      "disk": null
+    },
+    "seed": 32005,
+    "objects": [
+      {
+        "id": 0,
+        "color": "red",
+        "shape": "square",
+        "size": "large",
+        "x": 0.24883359788443377,
+        "y": 0.5259285499939689,
+        "radius": 0.0546875
+      },
+      {
+        "id": 1,
+        "color": "red",
+        "shape": "square",
+        "size": "small",
+        "x": 0.3258711521359323,
+        "y": 0.202115183257586,
+        "radius": 0.03125
+      },
+      {
+        "id": 2,
+        "color": "green",
+        "shape": "square",
+        "size": "large",
+        "x": 0.4470825283511235,
+        "y": 0.38826451228205344,
+        "radius": 0.0546875
+      },
+      {
+        "id": 3,
+        "color": "yellow",
+        "shape": "triangle",
+        "size": "large",
+        "x": 0.5696094128574446,
+        "y": 0.7520759508671716,
+        "radius": 0.0546875
+      }
+    ],
+    "expression": {
+      "text": "the square in front of the green square",
+      "level": "L2",
+      "family": "relation",
+      "attributes": {
+        "color": null,
+        "shape": "square",
+        "size": null,
+        "not_color": null
+      },
+      "relation": "in front of",
+      "anchor": {
+        "color": "green",
+        "shape": "square",
+        "size": null,
+        "not_color": null
+      },
+      "anchor2": null
+    },
+    "target_id": 0
+  },
+  {
+    "idx": null,
+    "name": null,
+    "description": null,
+    "prompt": null,
+    "system_prompt": null,
+    "image": null,
+    "workdir": null,
+    "network_allow": [
+      "*"
+    ],
+    "network_block": [],
+    "artifacts": [],
+    "timeout": {
+      "setup": null,
+      "agent": null,
+      "finalize": null,
+      "scoring": null
+    },
+    "resources": {
+      "cpu": null,
+      "memory": null,
+      "gpu": null,
+      "disk": null
+    },
+    "seed": 32005,
+    "objects": [
+      {
+        "id": 0,
+        "color": "red",
+        "shape": "square",
+        "size": "large",
+        "x": 0.24883359788443377,
+        "y": 0.5259285499939689,
+        "radius": 0.0546875
+      },
+      {
+        "id": 1,
+        "color": "red",
+        "shape": "square",
+        "size": "small",
+        "x": 0.3258711521359323,
+        "y": 0.202115183257586,
+        "radius": 0.03125
+      },
+      {
+        "id": 2,
+        "color": "green",
+        "shape": "square",
+        "size": "large",
+        "x": 0.4470825283511235,
+        "y": 0.38826451228205344,
+        "radius": 0.0546875
+      },
+      {
+        "id": 3,
+        "color": "yellow",
+        "shape": "triangle",
+        "size": "large",
+        "x": 0.5696094128574446,
+        "y": 0.7520759508671716,
+        "radius": 0.0546875
+      }
+    ],
+    "expression": {
+      "text": "the square behind the green square",
+      "level": "L2",
+      "family": "relation",
+      "attributes": {
+        "color": null,
+        "shape": "square",
+        "size": null,
+        "not_color": null
+      },
+      "relation": "behind",
+      "anchor": {
+        "color": "green",
+        "shape": "square",
+        "size": null,
+        "not_color": null
+      },
+      "anchor2": null
+    },
+    "target_id": 1
+  },
+  {
+    "idx": null,
+    "name": null,
+    "description": null,
+    "prompt": null,
+    "system_prompt": null,
+    "image": null,
+    "workdir": null,
+    "network_allow": [
+      "*"
+    ],
+    "network_block": [],
+    "artifacts": [],
+    "timeout": {
+      "setup": null,
+      "agent": null,
+      "finalize": null,
+      "scoring": null
+    },
+    "resources": {
+      "cpu": null,
+      "memory": null,
+      "gpu": null,
+      "disk": null
+    },
+    "seed": 32006,
+    "objects": [
+      {
+        "id": 0,
+        "color": "blue",
+        "shape": "square",
+        "size": "large",
+        "x": 0.715103734523896,
+        "y": 0.5256376620608785,
+        "radius": 0.0546875
+      },
+      {
+        "id": 1,
+        "color": "blue",
+        "shape": "circle",
+        "size": "small",
+        "x": 0.6683174501139769,
+        "y": 0.16783906895089756,
+        "radius": 0.03125
+      },
+      {
+        "id": 2,
+        "color": "green",
+        "shape": "triangle",
+        "size": "large",
+        "x": 0.2553845040844393,
+        "y": 0.25050788829016085,
+        "radius": 0.0546875
+      },
+      {
+        "id": 3,
+        "color": "purple",
+        "shape": "circle",
+        "size": "large",
+        "x": 0.8036607078608535,
+        "y": 0.3208251766768643,
+        "radius": 0.0546875
+      }
+    ],
+    "expression": {
+      "text": "the circle behind the purple circle",
+      "level": "L2",
+      "family": "relation",
+      "attributes": {
+        "color": null,
+        "shape": "circle",
+        "size": null,
+        "not_color": null
+      },
+      "relation": "behind",
+      "anchor": {
+        "color": "purple",
+        "shape": "circle",
+        "size": null,
+        "not_color": null
+      },
+      "anchor2": null
+    },
+    "target_id": 1
+  },
+  {
+    "idx": null,
+    "name": null,
+    "description": null,
+    "prompt": null,
+    "system_prompt": null,
+    "image": null,
+    "workdir": null,
+    "network_allow": [
+      "*"
+    ],
+    "network_block": [],
+    "artifacts": [],
+    "timeout": {
+      "setup": null,
+      "agent": null,
+      "finalize": null,
+      "scoring": null
+    },
+    "resources": {
+      "cpu": null,
+      "memory": null,
+      "gpu": null,
+      "disk": null
+    },
+    "seed": 32006,
+    "objects": [
+      {
+        "id": 0,
+        "color": "blue",
+        "shape": "square",
+        "size": "large",
+        "x": 0.715103734523896,
+        "y": 0.5256376620608785,
+        "radius": 0.0546875
+      },
+      {
+        "id": 1,
+        "color": "blue",
+        "shape": "circle",
+        "size": "small",
+        "x": 0.6683174501139769,
+        "y": 0.16783906895089756,
+        "radius": 0.03125
+      },
+      {
+        "id": 2,
+        "color": "green",
+        "shape": "triangle",
+        "size": "large",
+        "x": 0.2553845040844393,
+        "y": 0.25050788829016085,
+        "radius": 0.0546875
+      },
+      {
+        "id": 3,
+        "color": "purple",
+        "shape": "circle",
+        "size": "large",
+        "x": 0.8036607078608535,
+        "y": 0.3208251766768643,
+        "radius": 0.0546875
+      }
+    ],
+    "expression": {
+      "text": "the circle in front of the blue circle",
+      "level": "L2",
+      "family": "relation",
+      "attributes": {
+        "color": null,
+        "shape": "circle",
+        "size": null,
+        "not_color": null
+      },
+      "relation": "in front of",
+      "anchor": {
+        "color": "blue",
+        "shape": "circle",
+        "size": null,
+        "not_color": null
+      },
+      "anchor2": null
+    },
+    "target_id": 3
+  },
+  {
+    "idx": null,
+    "name": null,
+    "description": null,
+    "prompt": null,
+    "system_prompt": null,
+    "image": null,
+    "workdir": null,
+    "network_allow": [
+      "*"
+    ],
+    "network_block": [],
+    "artifacts": [],
+    "timeout": {
+      "setup": null,
+      "agent": null,
+      "finalize": null,
+      "scoring": null
+    },
+    "resources": {
+      "cpu": null,
+      "memory": null,
+      "gpu": null,
+      "disk": null
+    },
+    "seed": 32007,
+    "objects": [
+      {
+        "id": 0,
+        "color": "red",
+        "shape": "circle",
+        "size": "large",
+        "x": 0.7192608538030142,
+        "y": 0.7574065487625602,
+        "radius": 0.0546875
+      },
+      {
+        "id": 1,
+        "color": "red",
+        "shape": "circle",
+        "size": "large",
+        "x": 0.6275258874852762,
+        "y": 0.2575169472428424,
+        "radius": 0.0546875
+      },
+      {
+        "id": 2,
+        "color": "yellow",
+        "shape": "triangle",
+        "size": "large",
+        "x": 0.765249363651258,
+        "y": 0.4503182662215859,
+        "radius": 0.0546875
+      }
+    ],
+    "expression": {
+      "text": "the circle in front of the yellow triangle",
+      "level": "L2",
+      "family": "relation",
+      "attributes": {
+        "color": null,
+        "shape": "circle",
+        "size": null,
+        "not_color": null
+      },
+      "relation": "in front of",
+      "anchor": {
+        "color": "yellow",
+        "shape": "triangle",
+        "size": null,
+        "not_color": null
+      },
+      "anchor2": null
+    },
+    "target_id": 0
+  },
+  {
+    "idx": null,
+    "name": null,
+    "description": null,
+    "prompt": null,
+    "system_prompt": null,
+    "image": null,
+    "workdir": null,
+    "network_allow": [
+      "*"
+    ],
+    "network_block": [],
+    "artifacts": [],
+    "timeout": {
+      "setup": null,
+      "agent": null,
+      "finalize": null,
+      "scoring": null
+    },
+    "resources": {
+      "cpu": null,
+      "memory": null,
+      "gpu": null,
+      "disk": null
+    },
+    "seed": 32007,
+    "objects": [
+      {
+        "id": 0,
+        "color": "red",
+        "shape": "circle",
+        "size": "large",
+        "x": 0.7192608538030142,
+        "y": 0.7574065487625602,
+        "radius": 0.0546875
+      },
+      {
+        "id": 1,
+        "color": "red",
+        "shape": "circle",
+        "size": "large",
+        "x": 0.6275258874852762,
+        "y": 0.2575169472428424,
+        "radius": 0.0546875
+      },
+      {
+        "id": 2,
+        "color": "yellow",
+        "shape": "triangle",
+        "size": "large",
+        "x": 0.765249363651258,
+        "y": 0.4503182662215859,
+        "radius": 0.0546875
+      }
+    ],
+    "expression": {
+      "text": "the circle behind the yellow triangle",
+      "level": "L2",
+      "family": "relation",
+      "attributes": {
+        "color": null,
+        "shape": "circle",
+        "size": null,
+        "not_color": null
+      },
+      "relation": "behind",
+      "anchor": {
+        "color": "yellow",
+        "shape": "triangle",
+        "size": null,
+        "not_color": null
+      },
+      "anchor2": null
+    },
+    "target_id": 1
+  },
+  {
+    "idx": null,
+    "name": null,
+    "description": null,
+    "prompt": null,
+    "system_prompt": null,
+    "image": null,
+    "workdir": null,
+    "network_allow": [
+      "*"
+    ],
+    "network_block": [],
+    "artifacts": [],
+    "timeout": {
+      "setup": null,
+      "agent": null,
+      "finalize": null,
+      "scoring": null
+    },
+    "resources": {
+      "cpu": null,
+      "memory": null,
+      "gpu": null,
+      "disk": null
+    },
+    "seed": 33000,
+    "objects": [
+      {
+        "id": 0,
+        "color": "yellow",
+        "shape": "square",
+        "size": "large",
+        "x": 0.8131840568539684,
+        "y": 0.7780801480947865,
+        "radius": 0.0546875
+      },
+      {
+        "id": 1,
+        "color": "yellow",
+        "shape": "square",
+        "size": "small",
+        "x": 0.5118924341845128,
+        "y": 0.8465194737154308,
+        "radius": 0.03125
+      },
+      {
+        "id": 2,
+        "color": "yellow",
+        "shape": "square",
+        "size": "large",
+        "x": 0.21709569379276478,
+        "y": 0.4000658831256546,
+        "radius": 0.0546875
+      },
+      {
+        "id": 3,
+        "color": "purple",
+        "shape": "circle",
+        "size": "large",
+        "x": 0.7234319720578855,
+        "y": 0.4338098441625269,
+        "radius": 0.0546875
+      }
+    ],
+    "expression": {
+      "text": "the large yellow square left of the purple circle",
+      "level": "L3",
+      "family": "nested",
+      "attributes": {
+        "color": "yellow",
+        "shape": "square",
+        "size": "large",
+        "not_color": null
+      },
+      "relation": "left of",
+      "anchor": {
+        "color": "purple",
+        "shape": "circle",
+        "size": null,
+        "not_color": null
+      },
+      "anchor2": null
+    },
+    "target_id": 2
+  },
+  {
+    "idx": null,
+    "name": null,
+    "description": null,
+    "prompt": null,
+    "system_prompt": null,
+    "image": null,
+    "workdir": null,
+    "network_allow": [
+      "*"
+    ],
+    "network_block": [],
+    "artifacts": [],
+    "timeout": {
+      "setup": null,
+      "agent": null,
+      "finalize": null,
+      "scoring": null
+    },
+    "resources": {
+      "cpu": null,
+      "memory": null,
+      "gpu": null,
+      "disk": null
+    },
+    "seed": 33000,
+    "objects": [
+      {
+        "id": 0,
+        "color": "yellow",
+        "shape": "square",
+        "size": "large",
+        "x": 0.8131840568539684,
+        "y": 0.7780801480947865,
+        "radius": 0.0546875
+      },
+      {
+        "id": 1,
+        "color": "yellow",
+        "shape": "square",
+        "size": "small",
+        "x": 0.5118924341845128,
+        "y": 0.8465194737154308,
+        "radius": 0.03125
+      },
+      {
+        "id": 2,
+        "color": "yellow",
+        "shape": "square",
+        "size": "large",
+        "x": 0.21709569379276478,
+        "y": 0.4000658831256546,
+        "radius": 0.0546875
+      },
+      {
+        "id": 3,
+        "color": "purple",
+        "shape": "circle",
+        "size": "large",
+        "x": 0.7234319720578855,
+        "y": 0.4338098441625269,
+        "radius": 0.0546875
+      }
+    ],
+    "expression": {
+      "text": "the large yellow square in front of the purple circle",
+      "level": "L3",
+      "family": "nested",
+      "attributes": {
+        "color": "yellow",
+        "shape": "square",
+        "size": "large",
+        "not_color": null
+      },
+      "relation": "in front of",
+      "anchor": {
+        "color": "purple",
+        "shape": "circle",
+        "size": null,
+        "not_color": null
+      },
+      "anchor2": null
+    },
+    "target_id": 0
+  },
+  {
+    "idx": null,
+    "name": null,
+    "description": null,
+    "prompt": null,
+    "system_prompt": null,
+    "image": null,
+    "workdir": null,
+    "network_allow": [
+      "*"
+    ],
+    "network_block": [],
+    "artifacts": [],
+    "timeout": {
+      "setup": null,
+      "agent": null,
+      "finalize": null,
+      "scoring": null
+    },
+    "resources": {
+      "cpu": null,
+      "memory": null,
+      "gpu": null,
+      "disk": null
+    },
+    "seed": 33001,
+    "objects": [
+      {
+        "id": 0,
+        "color": "green",
+        "shape": "triangle",
+        "size": "large",
+        "x": 0.8107828247341576,
+        "y": 0.6884773155945412,
+        "radius": 0.0546875
+      },
+      {
+        "id": 1,
+        "color": "green",
+        "shape": "triangle",
+        "size": "large",
+        "x": 0.8048950738010822,
+        "y": 0.1467862146297787,
+        "radius": 0.0546875
+      }
+    ],
+    "expression": {
+      "text": "the green triangle near the bottom edge",
+      "level": "L3",
+      "family": "edge_context",
+      "attributes": {
+        "color": "green",
+        "shape": "triangle",
+        "size": null,
+        "not_color": null
+      },
+      "relation": "bottom",
+      "anchor": null,
+      "anchor2": null
+    },
+    "target_id": 0
+  },
+  {
+    "idx": null,
+    "name": null,
+    "description": null,
+    "prompt": null,
+    "system_prompt": null,
+    "image": null,
+    "workdir": null,
+    "network_allow": [
+      "*"
+    ],
+    "network_block": [],
+    "artifacts": [],
+    "timeout": {
+      "setup": null,
+      "agent": null,
+      "finalize": null,
+      "scoring": null
+    },
+    "resources": {
+      "cpu": null,
+      "memory": null,
+      "gpu": null,
+      "disk": null
+    },
+    "seed": 33001,
+    "objects": [
+      {
+        "id": 0,
+        "color": "green",
+        "shape": "triangle",
+        "size": "large",
+        "x": 0.8107828247341576,
+        "y": 0.6884773155945412,
+        "radius": 0.0546875
+      },
+      {
+        "id": 1,
+        "color": "green",
+        "shape": "triangle",
+        "size": "large",
+        "x": 0.8048950738010822,
+        "y": 0.1467862146297787,
+        "radius": 0.0546875
+      }
+    ],
+    "expression": {
+      "text": "the green triangle near the top edge",
+      "level": "L3",
+      "family": "edge_context",
+      "attributes": {
+        "color": "green",
+        "shape": "triangle",
+        "size": null,
+        "not_color": null
+      },
+      "relation": "top",
+      "anchor": null,
+      "anchor2": null
+    },
+    "target_id": 1
+  },
+  {
+    "idx": null,
+    "name": null,
+    "description": null,
+    "prompt": null,
+    "system_prompt": null,
+    "image": null,
+    "workdir": null,
+    "network_allow": [
+      "*"
+    ],
+    "network_block": [],
+    "artifacts": [],
+    "timeout": {
+      "setup": null,
+      "agent": null,
+      "finalize": null,
+      "scoring": null
+    },
+    "resources": {
+      "cpu": null,
+      "memory": null,
+      "gpu": null,
+      "disk": null
+    },
+    "seed": 33002,
+    "objects": [
+      {
+        "id": 0,
+        "color": "blue",
+        "shape": "square",
+        "size": "large",
+        "x": 0.82768288206601,
+        "y": 0.42272152144120595,
+        "radius": 0.0546875
+      },
+      {
+        "id": 1,
+        "color": "blue",
+        "shape": "square",
+        "size": "small",
+        "x": 0.8547004049009103,
+        "y": 0.8154408126032884,
+        "radius": 0.03125
+      },
+      {
+        "id": 2,
+        "color": "blue",
+        "shape": "square",
+        "size": "large",
+        "x": 0.17044483659384108,
+        "y": 0.7575684507056593,
+        "radius": 0.0546875
+      },
+      {
+        "id": 3,
+        "color": "purple",
+        "shape": "circle",
+        "size": "large",
+        "x": 0.3078826274448845,
+        "y": 0.6143705130552415,
+        "radius": 0.0546875
+      }
+    ],
+    "expression": {
+      "text": "the large blue square in front of the purple circle",
+      "level": "L3",
+      "family": "nested",
+      "attributes": {
+        "color": "blue",
+        "shape": "square",
+        "size": "large",
+        "not_color": null
+      },
+      "relation": "in front of",
+      "anchor": {
+        "color": "purple",
+        "shape": "circle",
+        "size": null,
+        "not_color": null
+      },
+      "anchor2": null
+    },
+    "target_id": 2
+  },
+  {
+    "idx": null,
+    "name": null,
+    "description": null,
+    "prompt": null,
+    "system_prompt": null,
+    "image": null,
+    "workdir": null,
+    "network_allow": [
+      "*"
+    ],
+    "network_block": [],
+    "artifacts": [],
+    "timeout": {
+      "setup": null,
+      "agent": null,
+      "finalize": null,
+      "scoring": null
+    },
+    "resources": {
+      "cpu": null,
+      "memory": null,
+      "gpu": null,
+      "disk": null
+    },
+    "seed": 33002,
+    "objects": [
+      {
+        "id": 0,
+        "color": "blue",
+        "shape": "square",
+        "size": "large",
+        "x": 0.82768288206601,
+        "y": 0.42272152144120595,
+        "radius": 0.0546875
+      },
+      {
+        "id": 1,
+        "color": "blue",
+        "shape": "square",
+        "size": "small",
+        "x": 0.8547004049009103,
+        "y": 0.8154408126032884,
+        "radius": 0.03125
+      },
+      {
+        "id": 2,
+        "color": "blue",
+        "shape": "square",
+        "size": "large",
+        "x": 0.17044483659384108,
+        "y": 0.7575684507056593,
+        "radius": 0.0546875
+      },
+      {
+        "id": 3,
+        "color": "purple",
+        "shape": "circle",
+        "size": "large",
+        "x": 0.3078826274448845,
+        "y": 0.6143705130552415,
+        "radius": 0.0546875
+      }
+    ],
+    "expression": {
+      "text": "the large blue square right of the purple circle",
+      "level": "L3",
+      "family": "nested",
+      "attributes": {
+        "color": "blue",
+        "shape": "square",
+        "size": "large",
+        "not_color": null
+      },
+      "relation": "right of",
+      "anchor": {
+        "color": "purple",
+        "shape": "circle",
+        "size": null,
+        "not_color": null
+      },
+      "anchor2": null
+    },
+    "target_id": 0
+  },
+  {
+    "idx": null,
+    "name": null,
+    "description": null,
+    "prompt": null,
+    "system_prompt": null,
+    "image": null,
+    "workdir": null,
+    "network_allow": [
+      "*"
+    ],
+    "network_block": [],
+    "artifacts": [],
+    "timeout": {
+      "setup": null,
+      "agent": null,
+      "finalize": null,
+      "scoring": null
+    },
+    "resources": {
+      "cpu": null,
+      "memory": null,
+      "gpu": null,
+      "disk": null
+    },
+    "seed": 33003,
+    "objects": [
+      {
+        "id": 0,
+        "color": "red",
+        "shape": "circle",
+        "size": "small",
+        "x": 0.4565384245502055,
+        "y": 0.18367516992081445,
+        "radius": 0.03125
+      },
+      {
+        "id": 1,
+        "color": "red",
+        "shape": "circle",
+        "size": "small",
+        "x": 0.8124748668397155,
+        "y": 0.7054632955862659,
+        "radius": 0.03125
+      },
+      {
+        "id": 2,
+        "color": "green",
+        "shape": "square",
+        "size": "large",
+        "x": 0.6300320045758268,
+        "y": 0.2698796694769055,
+        "radius": 0.0546875
+      }
+    ],
+    "expression": {
+      "text": "the red circle near the bottom edge",
+      "level": "L3",
+      "family": "edge_context",
+      "attributes": {
+        "color": "red",
+        "shape": "circle",
+        "size": null,
+        "not_color": null
+      },
+      "relation": "bottom",
+      "anchor": null,
+      "anchor2": null
+    },
+    "target_id": 1
+  },
+  {
+    "idx": null,
+    "name": null,
+    "description": null,
+    "prompt": null,
+    "system_prompt": null,
+    "image": null,
+    "workdir": null,
+    "network_allow": [
+      "*"
+    ],
+    "network_block": [],
+    "artifacts": [],
+    "timeout": {
+      "setup": null,
+      "agent": null,
+      "finalize": null,
+      "scoring": null
+    },
+    "resources": {
+      "cpu": null,
+      "memory": null,
+      "gpu": null,
+      "disk": null
+    },
+    "seed": 33003,
+    "objects": [
+      {
+        "id": 0,
+        "color": "red",
+        "shape": "circle",
+        "size": "small",
+        "x": 0.4565384245502055,
+        "y": 0.18367516992081445,
+        "radius": 0.03125
+      },
+      {
+        "id": 1,
+        "color": "red",
+        "shape": "circle",
+        "size": "small",
+        "x": 0.8124748668397155,
+        "y": 0.7054632955862659,
+        "radius": 0.03125
+      },
+      {
+        "id": 2,
+        "color": "green",
+        "shape": "square",
+        "size": "large",
+        "x": 0.6300320045758268,
+        "y": 0.2698796694769055,
+        "radius": 0.0546875
+      }
+    ],
+    "expression": {
+      "text": "the red circle near the top edge",
+      "level": "L3",
+      "family": "edge_context",
+      "attributes": {
+        "color": "red",
+        "shape": "circle",
+        "size": null,
+        "not_color": null
+      },
+      "relation": "top",
+      "anchor": null,
+      "anchor2": null
+    },
+    "target_id": 0
+  },
+  {
+    "idx": null,
+    "name": null,
+    "description": null,
+    "prompt": null,
+    "system_prompt": null,
+    "image": null,
+    "workdir": null,
+    "network_allow": [
+      "*"
+    ],
+    "network_block": [],
+    "artifacts": [],
+    "timeout": {
+      "setup": null,
+      "agent": null,
+      "finalize": null,
+      "scoring": null
+    },
+    "resources": {
+      "cpu": null,
+      "memory": null,
+      "gpu": null,
+      "disk": null
+    },
+    "seed": 33004,
+    "objects": [
+      {
+        "id": 0,
+        "color": "red",
+        "shape": "circle",
+        "size": "small",
+        "x": 0.7981507072842025,
+        "y": 0.20618741406438182,
+        "radius": 0.03125
+      },
+      {
+        "id": 1,
+        "color": "red",
+        "shape": "circle",
+        "size": "small",
+        "x": 0.25170262770554497,
+        "y": 0.8447665157984584,
+        "radius": 0.03125
+      },
+      {
+        "id": 2,
+        "color": "red",
+        "shape": "circle",
+        "size": "large",
+        "x": 0.7543571709507981,
+        "y": 0.757376000701533,
+        "radius": 0.0546875
+      },
+      {
+        "id": 3,
+        "color": "yellow",
+        "shape": "triangle",
+        "size": "small",
+        "x": 0.2619388955165318,
+        "y": 0.3090341703925976,
+        "radius": 0.03125
+      }
+    ],
+    "expression": {
+      "text": "the small red circle right of the yellow triangle",
+      "level": "L3",
+      "family": "nested",
+      "attributes": {
+        "color": "red",
+        "shape": "circle",
+        "size": "small",
+        "not_color": null
+      },
+      "relation": "right of",
+      "anchor": {
+        "color": "yellow",
+        "shape": "triangle",
+        "size": null,
+        "not_color": null
+      },
+      "anchor2": null
+    },
+    "target_id": 0
+  },
+  {
+    "idx": null,
+    "name": null,
+    "description": null,
+    "prompt": null,
+    "system_prompt": null,
+    "image": null,
+    "workdir": null,
+    "network_allow": [
+      "*"
+    ],
+    "network_block": [],
+    "artifacts": [],
+    "timeout": {
+      "setup": null,
+      "agent": null,
+      "finalize": null,
+      "scoring": null
+    },
+    "resources": {
+      "cpu": null,
+      "memory": null,
+      "gpu": null,
+      "disk": null
+    },
+    "seed": 33004,
+    "objects": [
+      {
+        "id": 0,
+        "color": "red",
+        "shape": "circle",
+        "size": "small",
+        "x": 0.7981507072842025,
+        "y": 0.20618741406438182,
+        "radius": 0.03125
+      },
+      {
+        "id": 1,
+        "color": "red",
+        "shape": "circle",
+        "size": "small",
+        "x": 0.25170262770554497,
+        "y": 0.8447665157984584,
+        "radius": 0.03125
+      },
+      {
+        "id": 2,
+        "color": "red",
+        "shape": "circle",
+        "size": "large",
+        "x": 0.7543571709507981,
+        "y": 0.757376000701533,
+        "radius": 0.0546875
+      },
+      {
+        "id": 3,
+        "color": "yellow",
+        "shape": "triangle",
+        "size": "small",
+        "x": 0.2619388955165318,
+        "y": 0.3090341703925976,
+        "radius": 0.03125
+      }
+    ],
+    "expression": {
+      "text": "the small red circle in front of the yellow triangle",
+      "level": "L3",
+      "family": "nested",
+      "attributes": {
+        "color": "red",
+        "shape": "circle",
+        "size": "small",
+        "not_color": null
+      },
+      "relation": "in front of",
+      "anchor": {
+        "color": "yellow",
+        "shape": "triangle",
+        "size": null,
+        "not_color": null
+      },
+      "anchor2": null
+    },
+    "target_id": 1
+  },
+  {
+    "idx": null,
+    "name": null,
+    "description": null,
+    "prompt": null,
+    "system_prompt": null,
+    "image": null,
+    "workdir": null,
+    "network_allow": [
+      "*"
+    ],
+    "network_block": [],
+    "artifacts": [],
+    "timeout": {
+      "setup": null,
+      "agent": null,
+      "finalize": null,
+      "scoring": null
+    },
+    "resources": {
+      "cpu": null,
+      "memory": null,
+      "gpu": null,
+      "disk": null
+    },
+    "seed": 33005,
+    "objects": [
+      {
+        "id": 0,
+        "color": "purple",
+        "shape": "square",
+        "size": "small",
+        "x": 0.5160515939218067,
+        "y": 0.15980946657673398,
+        "radius": 0.03125
+      },
+      {
+        "id": 1,
+        "color": "blue",
+        "shape": "square",
+        "size": "large",
+        "x": 0.3263737506852746,
+        "y": 0.544532497549036,
+        "radius": 0.0546875
+      },
+      {
+        "id": 2,
+        "color": "green",
+        "shape": "triangle",
+        "size": "large",
+        "x": 0.2726171684434199,
+        "y": 0.1764341173976444,
+        "radius": 0.0546875
+      },
+      {
+        "id": 3,
+        "color": "purple",
+        "shape": "square",
+        "size": "large",
+        "x": 0.627729611561952,
+        "y": 0.8343056964279781,
+        "radius": 0.0546875
+      }
+    ],
+    "expression": {
+      "text": "the purple square near the bottom edge",
+      "level": "L3",
+      "family": "edge_context",
+      "attributes": {
+        "color": "purple",
+        "shape": "square",
+        "size": null,
+        "not_color": null
+      },
+      "relation": "bottom",
+      "anchor": null,
+      "anchor2": null
+    },
+    "target_id": 3
+  },
+  {
+    "idx": null,
+    "name": null,
+    "description": null,
+    "prompt": null,
+    "system_prompt": null,
+    "image": null,
+    "workdir": null,
+    "network_allow": [
+      "*"
+    ],
+    "network_block": [],
+    "artifacts": [],
+    "timeout": {
+      "setup": null,
+      "agent": null,
+      "finalize": null,
+      "scoring": null
+    },
+    "resources": {
+      "cpu": null,
+      "memory": null,
+      "gpu": null,
+      "disk": null
+    },
+    "seed": 33005,
+    "objects": [
+      {
+        "id": 0,
+        "color": "purple",
+        "shape": "square",
+        "size": "small",
+        "x": 0.5160515939218067,
+        "y": 0.15980946657673398,
+        "radius": 0.03125
+      },
+      {
+        "id": 1,
+        "color": "blue",
+        "shape": "square",
+        "size": "large",
+        "x": 0.3263737506852746,
+        "y": 0.544532497549036,
+        "radius": 0.0546875
+      },
+      {
+        "id": 2,
+        "color": "green",
+        "shape": "triangle",
+        "size": "large",
+        "x": 0.2726171684434199,
+        "y": 0.1764341173976444,
+        "radius": 0.0546875
+      },
+      {
+        "id": 3,
+        "color": "purple",
+        "shape": "square",
+        "size": "large",
+        "x": 0.627729611561952,
+        "y": 0.8343056964279781,
+        "radius": 0.0546875
+      }
+    ],
+    "expression": {
+      "text": "the purple square near the top edge",
+      "level": "L3",
+      "family": "edge_context",
+      "attributes": {
+        "color": "purple",
+        "shape": "square",
+        "size": null,
+        "not_color": null
+      },
+      "relation": "top",
+      "anchor": null,
+      "anchor2": null
+    },
+    "target_id": 0
+  },
+  {
+    "idx": null,
+    "name": null,
+    "description": null,
+    "prompt": null,
+    "system_prompt": null,
+    "image": null,
+    "workdir": null,
+    "network_allow": [
+      "*"
+    ],
+    "network_block": [],
+    "artifacts": [],
+    "timeout": {
+      "setup": null,
+      "agent": null,
+      "finalize": null,
+      "scoring": null
+    },
+    "resources": {
+      "cpu": null,
+      "memory": null,
+      "gpu": null,
+      "disk": null
+    },
+    "seed": 33006,
+    "objects": [
+      {
+        "id": 0,
+        "color": "green",
+        "shape": "circle",
+        "size": "small",
+        "x": 0.30043535080080785,
+        "y": 0.2119195974743689,
+        "radius": 0.03125
+      },
+      {
+        "id": 1,
+        "color": "green",
+        "shape": "circle",
+        "size": "large",
+        "x": 0.26872720548902973,
+        "y": 0.7493971168484342,
+        "radius": 0.0546875
+      },
+      {
+        "id": 2,
+        "color": "green",
+        "shape": "circle",
+        "size": "small",
+        "x": 0.8552729196239569,
+        "y": 0.4035068135729141,
+        "radius": 0.03125
+      },
+      {
+        "id": 3,
+        "color": "purple",
+        "shape": "square",
+        "size": "small",
+        "x": 0.6595512050616897,
+        "y": 0.321478260663961,
+        "radius": 0.03125
+      }
+    ],
+    "expression": {
+      "text": "the small green circle in front of the purple square",
+      "level": "L3",
+      "family": "nested",
+      "attributes": {
+        "color": "green",
+        "shape": "circle",
+        "size": "small",
+        "not_color": null
+      },
+      "relation": "in front of",
+      "anchor": {
+        "color": "purple",
+        "shape": "square",
+        "size": null,
+        "not_color": null
+      },
+      "anchor2": null
+    },
+    "target_id": 2
+  },
+  {
+    "idx": null,
+    "name": null,
+    "description": null,
+    "prompt": null,
+    "system_prompt": null,
+    "image": null,
+    "workdir": null,
+    "network_allow": [
+      "*"
+    ],
+    "network_block": [],
+    "artifacts": [],
+    "timeout": {
+      "setup": null,
+      "agent": null,
+      "finalize": null,
+      "scoring": null
+    },
+    "resources": {
+      "cpu": null,
+      "memory": null,
+      "gpu": null,
+      "disk": null
+    },
+    "seed": 33006,
+    "objects": [
+      {
+        "id": 0,
+        "color": "green",
+        "shape": "circle",
+        "size": "small",
+        "x": 0.30043535080080785,
+        "y": 0.2119195974743689,
+        "radius": 0.03125
+      },
+      {
+        "id": 1,
+        "color": "green",
+        "shape": "circle",
+        "size": "large",
+        "x": 0.26872720548902973,
+        "y": 0.7493971168484342,
+        "radius": 0.0546875
+      },
+      {
+        "id": 2,
+        "color": "green",
+        "shape": "circle",
+        "size": "small",
+        "x": 0.8552729196239569,
+        "y": 0.4035068135729141,
+        "radius": 0.03125
+      },
+      {
+        "id": 3,
+        "color": "purple",
+        "shape": "square",
+        "size": "small",
+        "x": 0.6595512050616897,
+        "y": 0.321478260663961,
+        "radius": 0.03125
+      }
+    ],
+    "expression": {
+      "text": "the small green circle left of the purple square",
+      "level": "L3",
+      "family": "nested",
+      "attributes": {
+        "color": "green",
+        "shape": "circle",
+        "size": "small",
+        "not_color": null
+      },
+      "relation": "left of",
+      "anchor": {
+        "color": "purple",
+        "shape": "square",
+        "size": null,
+        "not_color": null
+      },
+      "anchor2": null
+    },
+    "target_id": 0
+  },
+  {
+    "idx": null,
+    "name": null,
+    "description": null,
+    "prompt": null,
+    "system_prompt": null,
+    "image": null,
+    "workdir": null,
+    "network_allow": [
+      "*"
+    ],
+    "network_block": [],
+    "artifacts": [],
+    "timeout": {
+      "setup": null,
+      "agent": null,
+      "finalize": null,
+      "scoring": null
+    },
+    "resources": {
+      "cpu": null,
+      "memory": null,
+      "gpu": null,
+      "disk": null
+    },
+    "seed": 33007,
+    "objects": [
+      {
+        "id": 0,
+        "color": "blue",
+        "shape": "circle",
+        "size": "large",
+        "x": 0.28363381188143677,
+        "y": 0.36108465274277524,
+        "radius": 0.0546875
+      },
+      {
+        "id": 1,
+        "color": "blue",
+        "shape": "circle",
+        "size": "small",
+        "x": 0.19582632004306072,
+        "y": 0.6662342930859847,
+        "radius": 0.03125
+      },
+      {
+        "id": 2,
+        "color": "yellow",
+        "shape": "circle",
+        "size": "small",
+        "x": 0.3609304280860856,
+        "y": 0.8053269407787045,
+        "radius": 0.03125
+      }
+    ],
+    "expression": {
+      "text": "the blue circle near the bottom edge",
+      "level": "L3",
+      "family": "edge_context",
+      "attributes": {
+        "color": "blue",
+        "shape": "circle",
+        "size": null,
+        "not_color": null
+      },
+      "relation": "bottom",
+      "anchor": null,
+      "anchor2": null
+    },
+    "target_id": 1
+  },
+  {
+    "idx": null,
+    "name": null,
+    "description": null,
+    "prompt": null,
+    "system_prompt": null,
+    "image": null,
+    "workdir": null,
+    "network_allow": [
+      "*"
+    ],
+    "network_block": [],
+    "artifacts": [],
+    "timeout": {
+      "setup": null,
+      "agent": null,
+      "finalize": null,
+      "scoring": null
+    },
+    "resources": {
+      "cpu": null,
+      "memory": null,
+      "gpu": null,
+      "disk": null
+    },
+    "seed": 33007,
+    "objects": [
+      {
+        "id": 0,
+        "color": "blue",
+        "shape": "circle",
+        "size": "large",
+        "x": 0.28363381188143677,
+        "y": 0.36108465274277524,
+        "radius": 0.0546875
+      },
+      {
+        "id": 1,
+        "color": "blue",
+        "shape": "circle",
+        "size": "small",
+        "x": 0.19582632004306072,
+        "y": 0.6662342930859847,
+        "radius": 0.03125
+      },
+      {
+        "id": 2,
+        "color": "yellow",
+        "shape": "circle",
+        "size": "small",
+        "x": 0.3609304280860856,
+        "y": 0.8053269407787045,
+        "radius": 0.03125
+      }
+    ],
+    "expression": {
+      "text": "the blue circle near the top edge",
+      "level": "L3",
+      "family": "edge_context",
+      "attributes": {
+        "color": "blue",
+        "shape": "circle",
+        "size": null,
+        "not_color": null
+      },
+      "relation": "top",
+      "anchor": null,
+      "anchor2": null
+    },
+    "target_id": 0
+  }
+]

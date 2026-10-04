@@ -1,0 +1,5 @@
+__pycache__/
+.venv/
+*.npz
+*.npy
+.DS_Store

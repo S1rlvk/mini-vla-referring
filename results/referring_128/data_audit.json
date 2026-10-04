@@ -1,0 +1,256 @@
+{
+  "train": {
+    "levels": {
+      "L1": {
+        "scenes": 128,
+        "expressions": 256,
+        "object_counts": {
+          "2": 62,
+          "3": 50,
+          "4": 144
+        },
+        "target_mean_xy": [
+          0.4880464756958546,
+          0.5083034869079914
+        ],
+        "target_quadrants": {
+          "False,False": 69,
+          "False,True": 66,
+          "True,False": 61,
+          "True,True": 60
+        },
+        "families": {
+          "attribute": 256
+        }
+      },
+      "L2": {
+        "scenes": 128,
+        "expressions": 256,
+        "object_counts": {
+          "2": 34,
+          "3": 86,
+          "4": 136
+        },
+        "target_mean_xy": [
+          0.5026320582505204,
+          0.47029828591638606
+        ],
+        "target_quadrants": {
+          "False,False": 66,
+          "False,True": 58,
+          "True,False": 74,
+          "True,True": 58
+        },
+        "families": {
+          "relation": 256
+        }
+      },
+      "L3": {
+        "scenes": 128,
+        "expressions": 256,
+        "object_counts": {
+          "2": 36,
+          "3": 38,
+          "4": 182
+        },
+        "target_mean_xy": [
+          0.48671695620324107,
+          0.5099657929506441
+        ],
+        "target_quadrants": {
+          "False,False": 68,
+          "False,True": 70,
+          "True,False": 56,
+          "True,True": 62
+        },
+        "families": {
+          "edge_context": 128,
+          "nested": 128
+        }
+      }
+    },
+    "mean_scene_generation_attempts": 7.213541666666667,
+    "max_attempts": 98
+  },
+  "validation": {
+    "levels": {
+      "L1": {
+        "scenes": 8,
+        "expressions": 16,
+        "object_counts": {
+          "2": 2,
+          "3": 4,
+          "4": 10
+        },
+        "target_mean_xy": [
+          0.5400614622913567,
+          0.4101632184127919
+        ],
+        "target_quadrants": {
+          "False,False": 4,
+          "False,True": 2,
+          "True,False": 7,
+          "True,True": 3
+        },
+        "families": {
+          "attribute": 16
+        }
+      },
+      "L2": {
+        "scenes": 8,
+        "expressions": 16,
+        "object_counts": {
+          "2": 0,
+          "3": 6,
+          "4": 10
+        },
+        "target_mean_xy": [
+          0.541829345980777,
+          0.4488705162558212
+        ],
+        "target_quadrants": {
+          "False,False": 3,
+          "False,True": 2,
+          "True,False": 7,
+          "True,True": 4
+        },
+        "families": {
+          "relation": 16
+        }
+      },
+      "L3": {
+        "scenes": 8,
+        "expressions": 16,
+        "object_counts": {
+          "2": 2,
+          "3": 4,
+          "4": 10
+        },
+        "target_mean_xy": [
+          0.5463688501284072,
+          0.4856657780526439
+        ],
+        "target_quadrants": {
+          "False,False": 4,
+          "False,True": 3,
+          "True,False": 5,
+          "True,True": 4
+        },
+        "families": {
+          "edge_context": 8,
+          "nested": 8
+        }
+      }
+    },
+    "mean_scene_generation_attempts": 10.333333333333334,
+    "max_attempts": 85
+  },
+  "test": {
+    "levels": {
+      "L1": {
+        "scenes": 32,
+        "expressions": 64,
+        "object_counts": {
+          "2": 12,
+          "3": 20,
+          "4": 32
+        },
+        "target_mean_xy": [
+          0.4919909406210137,
+          0.5110563964482481
+        ],
+        "target_quadrants": {
+          "False,False": 15,
+          "False,True": 19,
+          "True,False": 15,
+          "True,True": 15
+        },
+        "families": {
+          "attribute": 64
+        }
+      },
+      "L2": {
+        "scenes": 32,
+        "expressions": 64,
+        "object_counts": {
+          "2": 0,
+          "3": 24,
+          "4": 40
+        },
+        "target_mean_xy": [
+          0.4952395665800404,
+          0.5097010959676957
+        ],
+        "target_quadrants": {
+          "False,False": 15,
+          "False,True": 19,
+          "True,False": 12,
+          "True,True": 18
+        },
+        "families": {
+          "relation": 64
+        }
+      },
+      "L3": {
+        "scenes": 32,
+        "expressions": 64,
+        "object_counts": {
+          "2": 6,
+          "3": 16,
+          "4": 42
+        },
+        "target_mean_xy": [
+          0.5242315550580637,
+          0.49002336568938265
+        ],
+        "target_quadrants": {
+          "False,False": 15,
+          "False,True": 14,
+          "True,False": 16,
+          "True,True": 19
+        },
+        "families": {
+          "edge_context": 32,
+          "nested": 32
+        }
+      },
+      "L4": {
+        "scenes": 32,
+        "expressions": 64,
+        "object_counts": {
+          "2": 0,
+          "3": 0,
+          "4": 64
+        },
+        "target_mean_xy": [
+          0.4922141278495679,
+          0.5001184673655007
+        ],
+        "target_quadrants": {
+          "False,False": 16,
+          "False,True": 14,
+          "True,False": 18,
+          "True,True": 16
+        },
+        "families": {
+          "between": 32,
+          "not_red": 32
+        }
+      }
+    },
+    "mean_scene_generation_attempts": 309.796875,
+    "max_attempts": 7273
+  },
+  "text_parser_gt_semantic_agreement": 1.0,
+  "image_detector_parser_selection_accuracy": 0.9990671641791045,
+  "uniqueness_verified_expressions": 1072,
+  "engineering_scope": {
+    "parser_lines": 20,
+    "semantic_resolver_lines": 27,
+    "image_detector_lines": 30,
+    "note": "Full fixed grammar supports L1\u2013L4. Engineering cost does not necessarily grow steeply for these finite templates."
+  },
+  "counterfactual_design": "Two different uniquely specified targets per identical scene; target is not marked. Any deterministic no-text policy has <=50% success on each complete paired split.",
+  "behind_definition": "higher image y-direction: target y < anchor y - 0.06 (top-down screen coordinates)",
+  "between_definition": "projection within (0.15,0.85) of anchor segment, perpendicular distance <0.10 normalized workspace"
+}

@@ -1,0 +1,71 @@
+{
+  "summary": {
+    "L1": {
+      "episodes": 64,
+      "unique_scenes": 32,
+      "successes": 43,
+      "success_rate": 0.671875,
+      "decoy_touches": 1,
+      "timeouts": 20,
+      "correct_object_fraction_among_touches": 0.9772727272727273,
+      "initial_plan_accuracy_proxy": 1.0,
+      "success_given_correct_initial_plan_proxy": 0.671875,
+      "parser_selection_accuracy": null,
+      "valid_chunk_rate": 1.0,
+      "mean_endpoint_error_pixels": 20.60119700513927,
+      "mean_calls": 2.46875,
+      "mean_pipeline_seconds_including_cache": 0.011970503975031603
+    },
+    "L2": {
+      "episodes": 64,
+      "unique_scenes": 32,
+      "successes": 42,
+      "success_rate": 0.65625,
+      "decoy_touches": 5,
+      "timeouts": 17,
+      "correct_object_fraction_among_touches": 0.8936170212765957,
+      "initial_plan_accuracy_proxy": 0.953125,
+      "success_given_correct_initial_plan_proxy": 0.6885245901639344,
+      "parser_selection_accuracy": null,
+      "valid_chunk_rate": 1.0,
+      "mean_endpoint_error_pixels": 26.547401488534057,
+      "mean_calls": 2.40625,
+      "mean_pipeline_seconds_including_cache": 0.013398363889201072
+    },
+    "L3": {
+      "episodes": 64,
+      "unique_scenes": 32,
+      "successes": 32,
+      "success_rate": 0.5,
+      "decoy_touches": 5,
+      "timeouts": 27,
+      "correct_object_fraction_among_touches": 0.8648648648648649,
+      "initial_plan_accuracy_proxy": 0.96875,
+      "success_given_correct_initial_plan_proxy": 0.5161290322580645,
+      "parser_selection_accuracy": null,
+      "valid_chunk_rate": 1.0,
+      "mean_endpoint_error_pixels": 29.741027664910632,
+      "mean_calls": 2.671875,
+      "mean_pipeline_seconds_including_cache": 0.014718090174161442
+    },
+    "L4": {
+      "episodes": 64,
+      "unique_scenes": 32,
+      "successes": 40,
+      "success_rate": 0.625,
+      "decoy_touches": 2,
+      "timeouts": 22,
+      "correct_object_fraction_among_touches": 0.9523809523809523,
+      "initial_plan_accuracy_proxy": 0.921875,
+      "success_given_correct_initial_plan_proxy": 0.6779661016949152,
+      "parser_selection_accuracy": null,
+      "valid_chunk_rate": 1.0,
+      "mean_endpoint_error_pixels": 25.40777733624099,
+      "mean_calls": 2.40625,
+      "mean_pipeline_seconds_including_cache": 0.01505805033296135
+    }
+  },
+  "parser_coverage": "0/256",
+  "point_error_median_px": 19.14074302729764,
+  "point_in_target_fraction": 0.23046875
+}
